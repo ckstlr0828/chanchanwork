@@ -36,7 +36,7 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 60%;
+    width: 50%;
 }
 #inspiration_intro #inspiration_intro_imgbox{
     padding: 4rem 0 6rem 0;

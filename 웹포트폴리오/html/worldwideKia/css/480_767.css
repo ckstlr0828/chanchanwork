@@ -143,7 +143,7 @@ footer #footer_container #header_line1 #footer_textbox li a{
 
 /* --------------------------- ourInspiration --------------------------- */
 [class*="inspiration_text"] p{
-    font-size: 2.2rem;
+    font-size: 2rem;
     width: 480px;
 }
 .inspiration_explanation p{
@@ -157,6 +157,9 @@ footer #footer_container #header_line1 #footer_textbox li a{
 }
 #inspiration_intro #inspiration_intro_imgbox ul{
     width: 100%;
+}
+#inspiration_intro .intro_titlebox span{
+    width: 60%;
 }
 #inspiration_intro #inspiration_intro_imgbox li{
     width: 32%;

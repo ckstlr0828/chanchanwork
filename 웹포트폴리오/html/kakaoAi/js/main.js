@@ -356,7 +356,7 @@ $(document).ready(function(){
 
         // ----------------------- main_introductions
         $(window).scroll(function(){
-			var $scroll = $(window).scrollTop() + $(window).height()/1.6;
+			var $scroll = $(window).scrollTop() + $(window).height()/1.2;
             var $scrollStartArea = $("#main_introductions").offset().top;
             const movetext = document.querySelector(".main_moving_text");
 

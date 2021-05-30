@@ -1,0 +1,12 @@
+#main_introductions #introductions_contentbox{
+    height: 35rem;
+}
+#service_intro{
+    height: 35rem;
+}
+#service_imgbox{
+    height: 23rem;
+}
+#main_service::after{
+    height: 54rem;
+}
