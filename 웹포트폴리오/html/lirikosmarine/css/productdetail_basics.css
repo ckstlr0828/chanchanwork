@@ -296,7 +296,7 @@ h2.explanation_title::after{
     height: 0;
     padding-bottom: 40%;
     position: absolute;
-    top: 26.5rem;
+    top: 20%;
     /* 530px; */
     left: 47%;
     transform: translateX(-100%);
@@ -308,7 +308,7 @@ h2.explanation_title::after{
     height: 0;
     padding-bottom: 40%;
     position: absolute;
-    top: 40.5rem;
+    bottom: 10%;
     /* 950px; */
     left: 0;
     z-index: -20;

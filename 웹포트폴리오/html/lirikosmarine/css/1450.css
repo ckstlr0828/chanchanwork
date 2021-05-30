@@ -1,0 +1,22 @@
+#productlist_wrap #productlist_basics ul li{
+    float: left;
+    width: 21.25%;
+    margin-left: 5%;
+    margin-top: 3rem;
+    /* 40px; */
+}
+#productlist_wrap #productlist_basics ul li a{
+    display: block;
+}
+#productlist_wrap #productlist_basics ul li:nth-child(3n+1){
+    margin-left: 5%;
+}
+#productlist_wrap #productlist_basics ul li:nth-child(4n+1){
+    margin-left: 0;
+}
+#productlist_wrap #productlist_basics ul li:nth-child(1),
+#productlist_wrap #productlist_basics ul li:nth-child(2),
+#productlist_wrap #productlist_basics ul li:nth-child(3),
+#productlist_wrap #productlist_basics ul li:nth-child(4){
+    margin-top: 0;
+}
