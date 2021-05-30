@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lirikosmarine</title>
+    <link rel="shortcut icon" type="image⁄x-icon" href="img/favicon-83x83.png" />
+    <link href="css/fixedlayout.css" rel="stylesheet" type="text/css" />
+    <link href="css/productlist_basics.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/1024_1280.css" type="text/css" media="screen and (min-width:1024px) and (max-width:1280px)"/>
+    <link rel="stylesheet" href="css/768_1023.css" type="text/css" media="screen and (min-width:768px) and (max-width:1023px)"/>
+    <link rel="stylesheet" href="css/480_767.css" type="text/css" media="screen and (min-width:480px) and (max-width:767px)"/>
+    <link rel="stylesheet" href="css/479.css" type="text/css" media="screen and (max-width:479px)"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/fixed.js"></script>
+    <script type="text/javascript" src="js/productListDropBoxEvent.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <div id="header_wrap">
+            <header class="clearfix">
+                <div id="logo">
+                    <h1>
+                        <a href="index.html">
+                            <img src="img/lirikosmarine_logo.png" alt="리리코스마린에너지 로고" />
+                        </a>
+                    </h1>
+                </div>
+                <div id="menubtn_box">
+                    <input type="checkbox" id="menu_btn">
+                    <label for="menu_btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <!-- menu -->
+                    <div id="menu_box">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="ingredient.html">Ingredients</a>
+                            </li>
+                            <li>
+                                <a href="brandStory.html">Story</a>
+                            </li>
+                            <li>
+                                <a href="productlist_basics.html">Product</a>
+                            </li>
+                            <li>
+                                <a href="whatsNew.html">What’s new</a>
+                            </li>
+                        </ul>
+                        <p>© AMOREPACIFIC CORPORATION. All rights reserved.</p>
+                    </div>
+                    <!-- menu -->
+                </div>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="ingredient.html">Ingredients</a>
+                        </li>
+                        <li>
+                            <a href="brandStory.html">Story</a>
+                            <ul>
+                                <li>
+                                    <a href="brandStory.html">Brandstory</a>
+                                </li>
+                                <li>
+                                    <a href="designStory.html">Designstory</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="productlist_basics.html">Product</a>
+                        </li>
+                        <li>
+                            <a href="whatsNew.html">What’s new</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div id="search_btn">
+                    <span>
+                        <img src="img/search_icon.png" alt="검색 아이콘" />
+                    </span>
+                </div>
+            </header>
+        </div>
+        <!-- header -->
+        <div id="section_wrap">
+            <section id="division_wrap">
+                <ul class="clearfix">
+                    <li>
+                        <span>BY CATEGORY</span>
+                        <button id="dropBox1">
+                            <span></span>
+                        </button>
+                        <ul id="dropBox1Contents">
+                            <li>VIEW ALL</li>
+                            <li>CLEANSER</li>
+                            <li>TONER&EMULSION</li>
+                            <li>SERUM</li>
+                            <li>EYE & CREAM</li>
+                            <li>MASK & PACK</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>BY LINE</span>
+                        <button id="dropBox2">
+                            <span></span>
+                        </button>
+                        <ul id="dropBox2Contents">
+                            <li>VIEW ALL</li>
+                            <li>FACIAL ERASER</li>
+                            <li>HYDRATING PULSE</li>
+                            <li>DEEP SEA WATERFALL</li>
+                            <li>MASK & PACK</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>DETAILED</span>
+                        <button id="dropBox3">
+                            <span></span>
+                        </button>
+                        <ul id="dropBox3Contents">
+                            <li>LATEST</li>
+                            <li>POPULARITY</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="productlist_wrap">
+                <div id="productlist_title">
+                    <h1>BY CATEGORY</h1>
+                    <p>VIEW ALL</p>
+                </div>
+
+                <div id="productlist_basics">
+                    <ul class="clearfix">
+                        <li id="balancing_emulsion_with_deep_sea_salt">
+                            <a href="productdetails_balancing_emulsion.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_balancing_emulsion.html">
+                                    <h2>BALANCING EMULSION with DEEP SEA SALT</h2>
+                                    <p>Deep Sea Salt / Deep Sea Water</p>
+                                </a>
+                            </div>
+                        </li>
+                        
+                        <li id="deep_sea_waterfall_toner">
+                            <a href="productdetails_deep_sea_waterfall_toner.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_deep_sea_waterfall_toner.html">
+                                    <h2>DEEP SEA WATERFALL TONER</h2>
+                                    <p>Deep Sea Water / Seaweed Ferment</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="hydro_peeling_cream">
+                            <a href="productdetails_hydro_peeling_cream.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_hydro_peeling_cream.html">
+                                    <h2>HYDRO PEELING CREAM</h2>
+                                    <p>AHA Salt / Protease Enzyme / Glycerin and Squalane</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="facial_eraser_cleansing_water">
+                            <a href="productdetails_facial_eraser_cleansing_water.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_facial_eraser_cleansing_water.html">
+                                    <h2>FACIAL ERASER CLEANSING WATER</h2>
+                                    <p>Agar / Deep Sea Water</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="three_minute_clay_mask">
+                            <a href="productdetails_three_minute_clay_mask.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_three_minute_clay_mask.html">
+                                    <h2>3-MINUTE CLAY MASK</h2>
+                                    <p>White Clay / Mud / Deep Sea Salt</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="facial_eraser_cleansing_oil_foam">
+                            <a href="productdetails_facial_eraser_cleansing_oil_foam.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_facial_eraser_cleansing_oil_foam.html">
+                                    <h2>FACIAL ERASER CLEANSING OIL FOAM</h2>
+                                    <p>Agar / Salicornia herbacea</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="deep_sea_waterfall_cream">
+                            <a href="productdetails_deep_sea_waterfall_cream.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_deep_sea_waterfall_cream.html">
+                                    <h2>DEEP SEA WATERFALL CREAM</h2>
+                                    <p>Deep Sea Water / Seaweed Ferment</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="calming_pure_water">
+                            <a href="productdetails_calming_pure_water.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_calming_pure_water.html">
+                                    <h2>CALMING PURE WATER</h2>
+                                    <p>Artemisia capillaris</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="true_ampoule_mask">
+                            <a href="productdetails_true_ampoule_mask.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_true_ampoule_mask.html">
+                                    <h2>TRUE AMPOULE MASK</h2>
+                                    <p>Glasswort / Deep Sea Water / Pearl / Oyster</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="facial_eraser_cleansing_oil">
+                            <a href="productdetails_facial_eraser_cleansing_oil.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_facial_eraser_cleansing_oil.html">
+                                    <h2>FACIAL ERASER CLEANSING OIL</h2>
+                                    <p>Agar / Coconut Oil / Salicornia herbacea</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="facial_eraser_cleansing_foam">
+                            <a href="productdetails_facial_eraser_cleansing_foam.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_facial_eraser_cleansing_foam.html">
+                                    <h2>FACIAL ERASER CLEANSING FOAM</h2>
+                                    <p>Agar / Kaolin</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="v5_facial_serum">
+                            <a href="productdetails_v5_facial_serum.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_v5_facial_serum.html">
+                                    <h2>V5 FACIAL SERUM</h2>
+                                    <p>Multi-Vitamins</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="hydrating_pulse_essence_lotion">
+                            <a href="productdetails_hydrating_pulse_essence_lotion.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_hydrating_pulse_essence_lotion.html">
+                                    <h2>HYDRATING PULSE ESSENCE LOTION</h2>
+                                    <p>Ascophyllum Nodosum / Seaweed Ferment</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="hydrating_pulse_toner">
+                            <a href="productdetails_hydrating_pulse_toner.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_hydrating_pulse_toner.html">
+                                    <h2>HYDRATING PULSE TONER</h2>
+                                    <p>Protease Enzyme / Seaweed Ferment</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="deep_cleansing_foam">
+                            <a href="productdetails_deep_cleansing_foam.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_deep_cleansing_foam.html">
+                                    <h2>DEEP CLEANSING FOAM</h2>
+                                    <p>Korean West Sea Mud</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="facial_eraser_cleansing_balm">
+                            <a href="productdetails_facial_eraser_cleansing_balm.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_facial_eraser_cleansing_balm.html">
+                                    <h2>FACIAL ERASER CLEANSING BALM</h2>
+                                    <p>Agar / Tea Tree Oil</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li id="hot_melting_mud_mask">
+                            <a href="productdetails_hot_melting_mud_mask.html">
+                                <div class="product_imgbox"></div>
+                            </a>
+                            <div class="product_explanation">
+                                <a href="productdetails_hot_melting_mud_mask.html">
+                                    <h2>HOT MELTING MUD MASK</h2>
+                                    <p>Korean West Sea Mud / Scrub</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <footer>
+                <div id="topbtn">
+                    <button></button>
+                </div>
+                <div id="footer_wrap1">
+                    <ul id="footer_text1">
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms and Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Sitemap</a>
+                        </li>
+                    </ul>
+                    <ul id="footer_icon">
+                        <li>
+                            <span></span>
+                        </li>
+                        <li>
+                            <span></span>
+                        </li>
+                    </ul>
+                </div>
+                <p id="footer_wrap2">© AMOREPACIFIC CORPORATION. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

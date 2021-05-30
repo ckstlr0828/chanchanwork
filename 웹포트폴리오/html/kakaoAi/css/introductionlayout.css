@@ -1,0 +1,114 @@
+#introduction_visual .visual_header{
+    background: url("../img/introduction_visual.png") no-repeat center;
+    background-size: cover;
+}
+#introduction_contents{
+    padding: 3rem 6.2rem 7.5rem 6.2rem;
+    /* 60px 124px 150px 124px; */
+}
+#introduction_contents #content_titlebox{
+    padding-bottom: 2rem;
+    /* 40px; */
+}
+#introduction_contents #content_titlebox h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 4rem;
+    /* 80px; */
+    line-height: 4.15rem;
+    /* 83px; */
+    color: #151513;
+    font-weight: 900;
+    width: 56%;
+    margin-left: auto;
+    position: relative;
+}
+#introduction_contents #content_titlebox h2::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 6.8rem;
+    /* 136px; */
+    height: 6.9rem;
+    /* 136px; */
+    background-color: #ffcd00;
+    bottom: -8.25rem;
+    /* -165px; */
+    left: 0.4rem;
+    /* 8px; */
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+.content_box{
+    position: relative;
+}
+.content_box .content_imgbox{
+    width: 48%;
+    height: 14rem;
+    /* 280px; */
+    float: left;
+}
+.content_box .content_titlebox{
+    margin-left: 2%;
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.content_box .content_titlebox h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    /* 20px; */
+    line-height: 0.9rem;
+    /* 18px; */
+    font-weight: 700;
+    color: #151513;
+    padding-bottom: 1rem;
+    /* 20px; */
+}
+.content_box .content_titlebox p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.65rem;
+    /* 13px; */
+    line-height: 1.241rem;
+    /* 24.82px; */
+    font-weight: 400;
+    color: #666666;
+}
+#content_1 .content_box{
+    width: 56%;
+    margin-left: auto;
+    margin-bottom: 4rem;
+    /* 80px; */
+}
+#content_2 .content_box{
+    width: 56%;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    /* 80px; */
+}
+#content_3 .content_box{
+    width: 56%;
+    margin-left: auto;
+}
+
+#introduction_contents #content_1 .content_imgbox{
+    background: url("../img/introduction_content_1.png") no-repeat center;
+    background-size: cover;
+}
+#introduction_contents #content_2 .content_imgbox{
+    background: url("../img/introduction_content_2.png") no-repeat center;
+    background-size: cover;
+}
+#introduction_contents #content_3 .content_imgbox{
+    background: url("../img/introduction_content_3.png") no-repeat center;
+    background-size: cover;
+}
+#introduction_nextcontent .nextcontentline_1 .nextcontent_1{
+    background: url("../img/introduction_nextcontent_1.png") no-repeat center;
+    background-size: cover;
+}
+#introduction_nextcontent .nextcontentline_2 .nextcontent_imgbox{
+    background: url("../img/introduction_nextcontent_2.png") no-repeat center;
+    background-size: cover;
+}

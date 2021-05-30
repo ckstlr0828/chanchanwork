@@ -1,0 +1,275 @@
+html{font-size: 20px;}
+body{font-size: 1rem;}
+
+
+/* -------------------------- mainpage -------------------------- */
+/* header */
+header #logo a{
+    width: 4.8rem;
+    height: 1.108rem;
+    padding: 2rem 0;
+}
+header #search_btn{
+    margin-right: 2rem;
+}
+header nav{
+    width: 22rem;
+    left: 53%;
+}
+header nav > ul > li a{
+    padding: 1rem 0.7rem;
+    font-size: 0.7rem;
+}
+header nav > ul > li a:hover:after{
+    left: 0.2rem;
+}
+header #search_btn span{
+    width: 1rem;
+    height: 1rem;
+}
+/* header */
+#section_wrap{
+    padding-top: 5.108rem;
+}
+/* main_visual */
+#main_visual{
+    height: calc(100vh - 5.108rem);
+}
+.main_visual_textbox{
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main_visual_textbox .product_explanationbox h2{
+    /* 큰 제목 */
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+    padding-bottom: 1.2rem;
+}
+.main_visual_textbox .product_explanationbox p{
+    /* 본문 */
+    font-size: 0.65rem;
+    line-height: 1.2rem;
+}
+/* main_visual */
+/* main_brandstory */
+#main_brandStory #brandStorywrap{
+    height: calc(100vh - 5.108rem);
+}
+#main_brandStory #brandStorywrap .brandStory_contentbox .brandStory_textbox{
+    padding-bottom: 1.2rem;
+}
+#main_brandStory #brandStorywrap .brandStory_contentbox .brandStory_textbox h2{
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+    padding-bottom: 1.2rem;
+}
+#main_brandStory #brandStorywrap .brandStory_contentbox .brandStory_textbox h3{
+    /* 부제목 */
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+#main_brandStory #brandStorywrap .brandStory_contentbox .brandStory_textbox p{
+    font-size: 0.65rem;
+    line-height: 1.1rem;
+}
+/* main_brandstory */
+
+/* main_bestSellers */
+#main_bestSellers #bestSellers_title h2{
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+}
+/* main_bestSellers */
+
+/* main_whatsNew */
+#main_whatsNew #whatsNew_title h2{
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+    padding-left: 2.5rem;
+}
+#whatsNew_contents{
+    padding: 0 0 0 2.5rem;
+}
+#whatsNew_contents #whatsNew_bg2{
+    width: 27.2rem;
+    height: 15.5rem;
+}
+#whatsNew_contents #whatsNew_bg2 ul{
+    width: calc(27.2rem * 3);
+}
+#whatsNew_contents #whatsNew_bg2 ul li{
+    width: 27.2rem;
+}
+#whatsNew_contents #whatsNew_explanationbox{
+    width: 22.3rem;
+    height: 21.9rem;
+}
+#whatsNew_contents #whatsNew_explanationbox ul{
+    width: calc(22.3rem * 3);
+}
+#whatsNew_contents #whatsNew_explanationbox ul li{
+    width: 22.3rem;
+}
+#whatsNew_contents #whatsNew_explanationbox ul li .whatsNew_textbox{
+    padding: 2.5rem 2.5rem 0 2.5rem;
+}
+.linkbtn_whatsNew{
+    left: 2.5rem;
+}
+.nextbtn_whatsNew{
+    right: 2.5rem;
+    bottom: 2.5rem;
+}
+#main_whatsNew #whatsNew_bg1{
+    height: 35.5rem;
+}
+/* main_whatsNew */
+/* -------------------------- mainpage -------------------------- */
+
+/* --------------------------  ingredient --------------------------  */
+.ingredient_brand_visual{
+    height: calc(100vh - 5.108rem);
+}
+#ingredient_content_cover{
+    height: calc(100vh - 5.108rem);
+}
+
+#ingredient_content_cover #ingredient_content_cover_textbox{
+    width: 80%;
+}
+.content_cover .content_cover_textbox{
+    padding: 0 0 6rem 4rem;
+}
+.content_of_goods{
+    padding: 3.75rem 4rem;
+}
+.content_cover .content_cover_textbox p{
+    width: 40%;
+}
+.content_of_goods .goods_textwrap{
+    display: block;
+    width: 100%;
+}
+.content_of_goods .goods_productwrap{
+    float: none;
+    width: 100%;
+    height: 15.125rem;
+}
+.content_of_goods .goods_productwrap ul li a img{
+    top: 48%;
+}
+#ingredient_deepseawater .content_of_goods .goods_textwrap ul, #ingredient_artemisiacapillaris .content_of_goods .goods_textwrap ul, #ingredient_deepseasalt .content_of_goods .goods_textwrap ul, #ingredient_salicorniaeuropaea .content_of_goods .goods_textwrap ul, #ingredient_westseamud .content_of_goods .goods_textwrap ul{
+    width: 200%;
+}
+#ingredient_deepseawater .content_of_goods .goods_textwrap ul li, #ingredient_artemisiacapillaris .content_of_goods .goods_textwrap ul li, #ingredient_deepseasalt .content_of_goods .goods_textwrap ul li, #ingredient_salicorniaeuropaea .content_of_goods .goods_textwrap ul li, #ingredient_westseamud .content_of_goods .goods_textwrap ul li{
+    width: 25%;
+    margin-bottom: 2rem;
+}
+/* --------------------------  ingredient --------------------------  */
+
+
+/* -------------------------- brandstory -------------------------- */
+#brandstory_contents #brandstory_content_1 #content_1_textbox{
+    margin-left: 2.5rem;
+    height: auto;
+}
+#brandstory_contents #brandstory_content_1 #content_1_textbox #content_1_textbox_inner{
+    padding: 3rem;
+}
+#brandstory_contents #brandstory_content_1 #content_1_img{
+    margin-right: 2.5rem;
+    width: 65%;
+    height: 22rem;
+}
+#brandstory_contents #brandstory_content_1 #content_1_bg{
+    height: 30rem;
+}
+#brandstory_contents #brandstory_content_2{
+    padding: 6rem 2.5rem 6rem 2.5rem;
+}
+#brandstory_contents #brandstory_content_3{
+    padding: 0 2.5rem;
+}
+#brandstory_contents #brandstory_content_3 #content_3_textbox{
+    padding: 4rem 0;
+}
+/* -------------------------- brandstory -------------------------- */
+
+
+/* -------------------------- design story -------------------------- */
+#designstory_contents #designstory_content_line_1{
+    padding: 0 4.5rem 4rem 4.5rem;
+}
+#designstory_contents #designstory_content_line_2{
+    padding: 0 4.5rem;
+}
+#designstory_contents #designstory_content_line_1 #content_1 #content_1_img,
+#designstory_contents #designstory_content_line_1 #content_2 #content_2_img,
+#designstory_contents #designstory_content_line_2 #content_3_img,
+#designstory_contents #designstory_content_line_2 #content_4 #content_4_img{
+    height: 13.15rem;
+}
+/* -------------------------- design story -------------------------- */
+
+/* -------------------------- product list -------------------------- */
+#productlist_wrap #productlist_basics{
+    padding: 4rem 2.5rem 6rem 2.5rem;
+}
+
+/* -------------------------- product list -------------------------- */
+
+/* -------------------------- whatsnew -------------------------- */
+.newproduct_cover{
+    height: calc(100vh - 5.108rem); 
+}
+.newproduct_explanation{
+    height: calc(100vh - 5.108rem);
+}
+.newproduct_cover .newproduct_cover_textbox{
+    padding-left: 2.5rem;
+}
+.newproduct_explanation .newproduct_textbox .newproduct_textbox_inner{
+    padding: 2.5rem;
+}
+/* -------------------------- whatsnew -------------------------- */
+
+/* -------------------------- product details -------------------------- */
+#product_details_info #product_title_wrap #product_title_wrap_padding{
+    padding: 0 2.5rem;
+}
+#product_explanation_wrap{
+    padding-right: 2.5rem;
+}
+#product_details_info #product_title_wrap #title_and_content{
+    width: 35%;
+}
+#title_and_content #title_and_content_inner h1{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+#product_sub_img button{
+    width: 2rem;
+    height: 2rem;
+}
+#product_sub_img ul.slick-dots{
+    top: 115%;
+}
+.slick-dots li{
+    margin: 0;
+}
+#product_sub_img .slick-next{
+    right: 35%;
+    top: 120%;
+}
+#product_sub_img .slick-prev{
+    left: 35%;
+    top: 120%;
+}
+#product_sub_info{
+    padding: 0 2.5rem;
+}
+#product_details_info #product_title_wrap{
+    bottom: 7.35rem;
+}
+/* -------------------------- product details -------------------------- */

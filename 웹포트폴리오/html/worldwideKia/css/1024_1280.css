@@ -1,0 +1,62 @@
+html{font-size: 20px;}
+body{font-size: 1rem;}
+
+
+/* --------------------------- main.css --------------------------- */
+
+/* 타이틀 */
+.visual_titlebox{
+    padding: 0 0 6rem 6.25rem;
+}
+[class*="content_tiltebox"] h2{
+    padding: 0 0 2rem 10.4rem;
+}
+/* 타이틀 */
+
+/* 영역 */
+.container_2{
+    padding: 0 10.4rem;
+}
+[class*="content_explanationbox"]{
+    padding: 2rem 0 5rem 0;
+}
+/* 영역 */
+
+/* main_brandStory */
+#main_brandStory .content_textbox_explanationbox{
+    padding: 0 10.4rem;
+}
+#main_brandStory #brandStory_content1 #brandStory_content1_imgbox{
+    padding: 16% 20%;
+}
+#main_brandStory #brandStory_content1 #brandStory_content1_textbox{
+    padding-right: 10.4rem;
+}
+#main_brandStory #brandStory_content2{
+    padding-top: 5rem;
+}
+#main_brandStory #brandStory_content2 #brandStory_content2_imgbox{
+    padding-bottom: 50%;
+}
+#main_brandStory #brandStory_content2 #brandStory_content2_textbox p{
+    width: 100%;
+    padding: 1.5rem 0 5rem 0;
+}
+#main_brandStory #brandStory_content2 #brandStory_content2_imgbox span{
+    font-size: 0.8rem;
+}
+/* main_brandStory */
+
+
+/* --------------------------- main.css --------------------------- */
+
+/* --------------------------- ourInspiration --------------------------- */
+[class*="inspiration_text"] p{
+    font-size: 4rem;
+    width: 1024px;
+}
+#inspiration_intro .intro_titlebox span{
+    width: 60%;
+}
+
+/* --------------------------- ourInspiration --------------------------- */

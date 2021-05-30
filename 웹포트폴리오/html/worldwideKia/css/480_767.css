@@ -1,0 +1,189 @@
+html{font-size: 16px;}
+body{
+    font-size: 1rem;
+    overflow-x: hidden;
+}
+
+/* --------------------------- main.css --------------------------- */
+
+/* 타이틀 */
+#main_visual .visual_titlebox{
+    width: 25rem;
+}
+.visual_titlebox{
+    padding: 0 0 4rem 2rem;
+}
+.visual_titlebox > p{
+    padding-bottom: 1rem;
+}
+.visual_titlebox > h2{
+    font-size: 3.1rem;
+    line-height: 3rem;
+}
+#main_visual .visual_titlebox > h2 span{
+    margin-left: 0;
+}
+[class*="content_tiltebox"] h2{
+    padding: 0 0 2rem 2rem;
+    font-size: 3.1rem;
+    line-height: 3rem;
+    width: 20rem;
+}
+/* 타이틀 */
+
+/* 영역 */
+.container_1{
+    padding: 0 2rem;
+}
+.container_2{
+    padding: 0 2rem;
+}
+[class*="content_explanationbox"]{
+    padding: 2rem 0 4rem 0;
+}
+/* 영역 */
+
+/* main_movementIntro */
+#main_movementIntro #movementIntro_imgbox{
+    padding: 3rem 2rem 3rem 2rem;
+}
+#main_movementIntro #movementIntro_imgbox ul{
+    width: 100%;
+}
+#main_movementIntro #movementIntro_imgbox li{
+    width: 32%;
+    margin-left: 2%;
+    height: 0;
+    padding-bottom: 50%;
+}
+#main_movementIntro #movementIntro_imgbox li > a{
+    height: 0;
+    padding-bottom: 150%;
+}
+/* main_movementIntro */
+
+/* main_brandStory */
+#main_brandStory .content_textbox_explanationbox{
+    padding: 0 2rem;
+}
+#main_brandStory #right_textbox{
+    width: 50%;
+}
+#main_brandStory #brandStory_content1 #brandStory_content1_imgbox{
+    padding: 20% 25%;
+}
+#main_brandStory #brandStory_content1 #brandStory_content1_textbox{
+    padding-right: 2rem;
+}
+#main_brandStory #brandStory_content2{
+    padding-top: 4rem;
+    margin-left: 0;
+}
+#main_brandStory #brandStory_content2 #brandStory_content2_imgbox{
+    padding-bottom: 60%;
+}
+#main_brandStory #brandStory_content2 #brandStory_content2_textbox p{
+    width: 100%;
+    padding: 1.5rem 0 4rem 0;
+}
+#main_brandStory #brandStory_content2 #brandStory_content2_imgbox p{
+    width: 80%;
+}
+#main_brandStory #brandStory_content2 #brandStory_content2_imgbox span{
+    font-size: 0.8rem;
+}
+#main_brandStory #brandStory_content3{
+    padding-bottom: 50%;
+}
+#main_brandStory #brandStory_content3 #conten3_textbox{
+    padding: 0 2rem 2.5rem 0;
+    text-align: right;
+}
+/* main_brandStory */
+
+/* main_brandMindset */
+#main_brandMindset #brandMindset_content1_textbox{
+    padding: 0 0 2.5rem 2rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+#main_brandMindset #brandMindset_content1{
+    padding-bottom: 50%;
+}
+/* main_brandMindset */
+
+/* footer */
+footer #footer_container{
+    padding: 0 2rem;
+}
+footer #footer_container #header_line1 #footerLogo{
+    display: block;
+    padding-bottom: 1.5rem;
+}
+footer #footer_container #header_line1 #footer_textbox ul{
+    margin-left: -0.7rem;
+}
+footer #footer_container #header_line1 #footer_textbox p{
+    padding: 0.8rem 0 0 0;
+    font-size: 0.3rem;
+}
+footer #footer_container #header_line1{
+    position: relative;
+}
+footer #footer_container #header_line1 #top_btn{
+    position: absolute;
+    right: 0;
+    top: 2.8rem;
+}
+footer #footer_container #header_line1 #footer_textbox li a{
+    font-size: 0.5rem;
+}
+/* footer */
+/* --------------------------- main.css --------------------------- */
+
+/* --------------------------- ourInspiration --------------------------- */
+[class*="inspiration_text"] p{
+    font-size: 2.2rem;
+    width: 480px;
+}
+.inspiration_explanation p{
+    font-size: 0.6rem;
+    width: 80%;
+    display: inline-block;
+    line-height: 1rem;
+}
+#inspiration_intro #inspiration_intro_imgbox{
+    padding: 4rem 2rem 6rem 2rem;
+}
+#inspiration_intro #inspiration_intro_imgbox ul{
+    width: 100%;
+}
+#inspiration_intro #inspiration_intro_imgbox li{
+    width: 32%;
+    margin-left: 2%;
+    height: 0;
+    padding-bottom: 32%;
+}
+#inspiration_intro #inspiration_intro_imgbox li > a{
+    height: 0;
+    padding-bottom: 100%;
+}
+.inspiration_imgbox{
+    width: 55%;
+    padding-bottom: 55%;
+}
+#inspiration_content_air, #inspiration_content_land, #inspiration_content_ocean{
+    padding-bottom: 55%;
+}
+/* --------------------------- ourInspiration --------------------------- */
+
+/* --------------------------- ourSymbol  --------------------------- */
+#oursymbol_logo #oursymbol_logo_comment p#comment_textbox{
+    padding: 0 2.5rem 2rem 0;
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+#oursymbol_logo #oursymbol_logo_comment{
+    padding-bottom: 50%;
+}
+/* --------------------------- ourSymbol  --------------------------- */

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image⁄x-icon" href="img/kakaoi_favicon.png" />
+    <title>kakaoi</title>
+    <link href="css/fixedlayout.css" rel="stylesheet" type="text/css" />
+    <link href="css/mainlayout.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/1024_1280.css" type="text/css" media="screen and (min-width:1024px) and (max-width:1280px)"/>
+    <link rel="stylesheet" href="css/768_1023.css" type="text/css" media="screen and (min-width:768px) and (max-width:1023px)"/>
+    <link rel="stylesheet" href="css/480_767.css" type="text/css" media="screen and (min-width:480px) and (max-width:767px)"/>
+    <link rel="stylesheet" href="css/479.css" type="text/css" media="screen and (max-width:479px)"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="plugin/slick/slick-theme.css" type="text/css" />
+    <link rel="stylesheet" href="plugin/slick/slick.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="plugin/slick/slick.js"></script>
+    <script type="text/javascript" src="js/mainslick.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/fixed.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <div id="header_wrap">
+            <header class="clearfix">
+                <div id="menubtn_box">
+                    <input type="checkbox" id="menu_btn">
+                    <label for="menu_btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <!-- menu -->
+                    <div id="menu_box">
+                        <ul>
+                            <li>
+                                <a href="introduction.html">introduction</a>
+                            </li>
+                            <li>
+                                <a href="service.html">Service</a>
+                            </li>
+                            <li>
+                                <a href="#" class="productclick">product</a>
+                            </li>
+                            <li>
+                                <a href="partner.html">Partner</a>
+                            </li>
+                        </ul>
+                        <p>© Kakao Enterprise. The Kakao i is a trademark of Kakaocorp.</p>
+                    </div>
+                    <!-- menu -->
+                </div>
+                <div id="logo">
+                    <h1>
+                        <a href="index.html">
+                            <img src="img/kakaoi_logo.png" alt="카카오i 로고" />
+                        </a>
+                    </h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">AI알고리즘 윤리</a>
+                        </li>
+                        <li>
+                            <a href="#">제휴문의</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="addnav">
+                    <div id="icon"></div>
+                </div>
+            </header>
+            <!-- header -->
+        </div>
+        <div id="section_wrap">
+            <!-- main_visual -->
+            <section id="main_visual">
+                <div id="visual_bg">
+                    <div id="view_producttextbox">
+                        <a href="#">VIEW PRODUCT</a>
+                    </div>
+                </div>
+                <div id="mainproduct_for">
+                    <ul class="clearfix mainVisual_product_slideList">
+                        <li class="mainVisual_product_slideContents">
+                            <a href="#">
+                                <img src="img/visual_mainproduct_1.png" alt="카카오 미니링크" />
+                            </a>
+                        </li>
+                        <li class="mainVisual_product_slideContents">
+                            <a href="#">
+                                <img src="img/visual_mainproduct_2.png" alt="카카오 미니" />
+                            </a>
+                        </li>
+                        <li class="mainVisual_product_slideContents">
+                            <a href="#">
+                                <img src="img/visual_mainproduct_3.png" alt="카카오 미니헥사" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="mainproduct_nav">
+                    <ul class="mainVisual_navproduct_slideList">
+                        <li class="mainVisual_navproduct_slideContents">
+                            <img src="img/visual_subproduct_2.png" alt="카카오 미니" />
+                        </li>
+                        <li class="mainVisual_navproduct_slideContents">
+                            <img src="img/visual_subproduct_3.png" alt="카카오 미니헥사" />
+                        </li>
+                        <li class="mainVisual_navproduct_slideContents">
+                            <img src="img/visual_subproduct_1.png" alt="카카오 미니링크" />
+                        </li>
+                    </ul>
+                </div>
+                <div id="visual_productexplanation">
+                    <ul class="clearfix mainVisual_textproduct_slideList">
+                        <li class="mainVisual_textproduct_slideContents">
+                            <div class="product_textbox">
+                                <span>Mini Link</span>
+                                <h2>미니링크</h2>
+                                <p>휴대성이 대폭 강화된 음성비서 미니링크를 소개합니다. 당신과 헤이카카오 사이 늘 링크될 준비가 되어 있어요.</p>
+                            </div>
+                        </li>
+                        <li class="mainVisual_textproduct_slideContents">
+                            <div class="product_textbox">
+                                <span>Kakaomini</span>
+                                <h2>카카오미니</h2>
+                                <p>카카오미니는 당신의 생활을 더 쉽고 편리하게 만들기 위해 태어났습니다. 여러분의 생활을 즐거운 일상으로 만들어 드릴께요.</p>
+                            </div>
+                        </li>
+                        <li class="mainVisual_textproduct_slideContents">
+                            <div class="product_textbox">
+                                <span>Mini Hexa</span>
+                                <h2>미니헥사</h2>
+                                <p>더욱 개선된 음성인식으로 완벽해진 미니헥사는 어떤 상황에서도 더 똑똑하고 잘 알아듣는 라이프 어시스턴트입니다.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div id="product_btnbox" class="clearfix">
+                        <div class="linkbtn">
+                            <a href="#">
+                                <span>제품 보러가기</span>
+                            </a>
+                        </div>
+                        <div class="nextbtn">
+                            <button class="mainVisual_slide_btnPrev">
+                                <span></span>
+                            </button>
+                            <button class="mainVisual_slide_btnNext">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="visual_indicator" class="clearfix">
+                        <div id="indicator_nomber">
+                            <span>1</span>
+                            <div id="indicator_timer">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <span class="indicator_nomber_fixed">3</span>
+                        </div>
+                        <div class="indicator_gostopbtn">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- main_visual -->
+
+            <!-- main_introductions -->
+            <section id="main_introductions">
+                <div id="introductions_movetext">
+                    <p class="main_moving_text">We are everywhere</p>
+                </div>
+                <div id="introductions_contentbox">
+                    <div id="introductions_titlebox">
+                        <h2>카카오 i 소개</h2>
+                        <p>일상의 모든 것들을 누구나 편리하게 경험하는 세상.
+                            카카오 i로 만들어 가려는 세상을 소개합니다.</p>
+                        <div id="linkbtn_introductions">
+                            <a href="introduction.html">소개 보러가기</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- main_introductions -->
+
+            <!-- main_partner -->
+            <section id="main_partner">
+                <div id="partner_titlebox">
+                    <h2>카카오 i 파트너</h2>
+                    <p>다양한 파트너의 제품, 서비스, 기술이 만나 우리의 일상에 편리함을 더합니다.</p>
+                </div>
+                <div id="partner_contentbox">
+                    <div>
+                        <a href="partner.html">
+                            <div class="partner_imgbox">
+                                <img src="img/main_partner_1.png" alt="Smart Home x Kakao i" />
+                            </div>
+                        </a>
+                        <a href="partner.html">
+                            <div class="partner_explanation">
+                                <h3>Smart Home x Kakao i</h3>
+                                <p>나의 집을 더욱 스마트하게 즐겨보세요.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="partner.html">
+                            <div class="partner_imgbox">
+                                <img src="img/main_partner_2.png" alt="Display x Kakao i" />
+                            </div>
+                        </a>
+                        <a href="partner.html">
+                            <div class="partner_explanation">
+                                <h3>Display x Kakao i</h3>
+                                <p>리모콘 없이 음성으로 TV 시청을 해보세요.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="partner.html">
+                            <div class="partner_imgbox">
+                                <img src="img/main_partner_3.png" alt="Smart Accessory x Kakao i" />
+                            </div>
+                        </a>
+                        <a href="partner.html">
+                            <div class="partner_explanation">
+                                <h3>Smart Accessory x Kakao i</h3>
+                                <p>더욱 편리해진 라이딩을 경험해보세요.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="partner.html">
+                            <div class="partner_imgbox">
+                                <img src="img/main_partner_4.png" alt="Navigation x Kakao i" />
+                            </div>
+                        </a>    
+                        <a href="partner.html">
+                            <div class="partner_explanation">
+                                <h3>Navigation x Kakao i</h3>
+                                <p>길 안내 중 필요한 것이 있다면 헤이카카오를 불러보세요.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="partner.html">
+                            <div class="partner_imgbox">
+                                <img src="img/main_partner_5.png" alt="Mobility x Kakao i" />
+                            </div>
+                        </a>
+                        <a href="partner.html">
+                            <div class="partner_explanation">
+                                <h3>Mobility x Kakao i</h3>
+                                <p>말로 더 쉽고 편리한 주행 경험을 제공합니다.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="partner.html">
+                            <div class="partner_imgbox">
+                                <img src="img/main_partner_6.png" alt="Kakaotalk x Kakao i" />
+                            </div>
+                        </a>
+                        <a href="partner.html">
+                            <div class="partner_explanation">
+                                <h3>Kakaotalk x Kakao i</h3>
+                                <p>이제 카카오톡도 말로 편하게 즐기세요.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="linkbtn_partner">
+                    <a href="partner.html">
+                        <span>더 많은 파트너 보러가기</span>
+                    </a>
+                </div>
+            </section>
+            <!-- main_partner -->
+
+            <!-- main_service -->
+            <section id="main_service">
+                <div id="service_intro">
+                    <p>WORDS THAT<br/> WILL CHANGE YOUR LIFE</p>
+                </div>
+                <div id="service_contentbox">
+                    <div id="service_textbox">
+                        <h2>카카오 i 서비스</h2>
+                        <p>일상의 모든 것들을 더 편리하게 이용할 수 있는 경험을 제공하는 것, 그것이 카카오가 AI기술을 통해서 만들어 가려는 세상입니다.</p>
+                        <div id="service_btnbox">
+                            <div class="link_service">
+                                <a href="service.html">서비스 보러가기</a>
+                            </div>
+                            <div id="nextbtn">
+                                <button class="mainVisual_service_slide_btnPrev">
+                                    <span></span>
+                                </button>
+                                <button class="mainVisual_service_slide_btnNext">
+                                    <span></span>
+                                </button>
+                            </div>
+                            <div id="service_movetextbox">
+                                <ul class="clearfix mainVisual_service_text_slideList">
+                                    <li class="mainVisual_service_text_slideContents">
+                                        <p>“ 헤이카카오,<br/> 내 동생한테 온 카톡 읽어줘 ”</p>
+                                    </li>
+                                    <li class="mainVisual_service_text_slideContents">
+                                        <p>“ 헤이카카오,<br/> 오늘 서울시 날씨는 어때? ”</p>
+                                    </li>
+                                    <li class="mainVisual_service_text_slideContents">
+                                        <p>“ 헤이카카오,<br/> 여기서 가로수길까지 얼마나 걸려? ”</p>
+                                    </li>
+                                    <li class="mainVisual_service_text_slideContents">
+                                        <p>“ 헤이카카오,<br/> 수면동화 들려줘 ”</p>
+                                    </li>
+                                    <li class="mainVisual_service_text_slideContents">
+                                        <p>“ 헤이카카오,<br/> 최신 개봉한 영화 뭐 있어? ”</p>
+                                    </li>
+                                    <li class="mainVisual_service_text_slideContents">
+                                        <p>“ 헤이카카오,<br/> 외출 모드 켜줘 ”</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                <div id="service_imgbox">
+                    <ul class="clearfix mainVisual_service_img_slideList">
+                        <li class="mainVisual_service_img_slideContents">
+                            <div class="mainVisual_service_img_slideContents_1"></div>
+                        </li>
+                        <li class="mainVisual_service_img_slideContents">
+                            <div class="mainVisual_service_img_slideContents_2"></div>
+                        </li>
+                        <li class="mainVisual_service_img_slideContents">
+                            <div class="mainVisual_service_img_slideContents_3"></div>
+                        </li>
+                        <li class="mainVisual_service_img_slideContents">
+                            <div class="mainVisual_service_img_slideContents_4"></div>
+                        </li>
+                        <li class="mainVisual_service_img_slideContents">
+                            <div class="mainVisual_service_img_slideContents_5"></div>
+                        </li>
+                        <li class="mainVisual_service_img_slideContents">
+                            <div class="mainVisual_service_img_slideContents_6"></div>
+                        </li>
+                    </ul>
+                </div>
+                    
+                </div>
+            </section>
+            <!-- main_service -->
+
+            <!-- footer -->
+            <footer>
+                <div id="footer_navbox1">
+                    <div id="navbox1_line1">
+                        <div id="footerlogo">
+                            <a href="index.html">
+                                <img src="img/footerlogo.png" alt="카카오i 로고" />
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">서비스 약관</a>
+                            </li>
+                            <li>
+                                <a href="#">개인정보 취급방침</a>
+                            </li>
+                            <li>
+                                <a href="#">제휴제안 문의</a>
+                            </li>
+                            <li>
+                                <a href="#">고객센터</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p id="navbox1_line2">© Kakao Enterprise. The Kakao i is a trademark of Kakaocorp.</p>
+                </div>
+                <div id="footer_navbox2">
+                    <div id="navbox2_line1">
+                        <ul>
+                            <li><a href="#">Kakao Enterprise</a></li>
+                            <li><a href="#">Kakao Enterprise Tech Blog</a></li>
+                            <li><a href="#">Kakao i Developers</a></li>
+                        </ul>
+                    </div>
+                    <div id="navbox2_line2">
+                        <span>Share</span>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="footer_topbtn">
+                    <span>Back to top</span>
+                    <button>
+                    </button>
+                </div>
+            </footer>
+            <!-- footer -->
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+#inspiration_visual{
+    height: calc(100vh);
+    background: url("../img/inspiration_visual.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+#inspiration_intro{
+    background-color: #000;
+    padding: 6rem 0;
+    /* 120px 0; */
+    position: relative;
+}
+#inspiration_intro::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 90%;
+    position: absolute;
+    background-color: #e4e4e4;
+    z-index: -10;
+}
+#inspiration_intro .intro_titlebox span{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.65rem;
+    /* 13px; */
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.241rem;
+    /* 24.82px; */
+    padding-top: 2rem;
+    /* 40px; */
+    width: 27.75rem;
+    /* 555px; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+}
+#inspiration_intro #inspiration_intro_imgbox{
+    padding: 4rem 0 6rem 0;
+    /* 80px 0 120px 0; */
+}
+#inspiration_intro #inspiration_intro_imgbox ul{
+    width: 48.45rem;
+    /* 969px; */
+    margin: 0 auto;
+}
+#inspiration_intro #inspiration_intro_imgbox li{
+    float: left;
+    width: 15.4rem;
+    /* 308px; */
+    height: 15rem;
+    /* 300px; */
+    margin-left: 1rem;
+    /* 20px; */
+    transition: all 1s;
+    overflow: hidden;
+    position: relative;
+}
+#inspiration_intro #inspiration_intro_imgbox li:nth-child(1){
+    margin-left: 0;
+    background: url("../img/inspiration_intro_1.png") no-repeat center;
+    background-size: 100%;
+}
+#inspiration_intro #inspiration_intro_imgbox li:nth-child(2){
+    background: url("../img/inspiration_intro_2.png") no-repeat center;
+    background-size: 100%;
+}
+#inspiration_intro #inspiration_intro_imgbox li:nth-child(3){
+    background: url("../img/inspiration_intro_3.png") no-repeat center;
+    background-size: 100%;
+}
+#inspiration_intro #inspiration_intro_imgbox li:hover{
+    background-size: 115%;
+}
+#inspiration_intro #inspiration_intro_imgbox li a{
+    display: block;
+    height: 15rem;
+    /* 300px; */
+}
+#inspiration_intro #inspiration_intro_imgbox li .inspiration_intro_textbox{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#inspiration_intro #inspiration_intro_imgbox li .inspiration_intro_textbox p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    /* 25px; */
+    font-weight: 700;
+    color: #fff;
+    line-height: 0.8rem;
+    /* 16px; */
+    padding-bottom: 0.5rem;
+    /* 10px; */
+}
+#inspiration_intro #inspiration_intro_imgbox li .inspiration_intro_textbox span{
+    display: block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    /* 20px; */
+    font-weight: 700;
+    color: #fff;
+    line-height: 0.8rem;
+    /* 16px; */
+}
+#inspiration_contents{
+    margin-top: -6rem;
+    /* -120px; */
+}
+#inspiration_content_air,
+#inspiration_content_land,
+#inspiration_content_ocean{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 45%;
+    margin-bottom: 6rem;
+    /* 120px; */
+}
+[class*="inspiration_text"] p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.6rem;
+    /* 92px; */
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+    /* 70px; */
+    display: inline-block;
+    width: 60rem;
+    /* 1200px; */
+    text-align: center;
+    letter-spacing: 0.4rem;
+    /* 8px; */
+}
+.inspiration_text_black{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inspiration_text_black p{
+    color: #000;
+}
+.inspiration_imgbox{
+    width: 46%;
+    height: 0;
+    padding-bottom: 45%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inspiration_imgbox video{
+    width: 200%;
+    transform: translateX(-20%);
+}
+.inspiration_imgbox .inspiration_text_white{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.inspiration_explanation{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 17.5rem;
+    /* 350px; */
+}
+.inspiration_explanation span{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1rem;
+    /* 20px; */
+    line-height: 0.9rem;
+    /* 18px; */
+    display: block;
+    padding-bottom: 1rem;
+    /* 20px; */
+}
+.inspiration_explanation p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 0.9rem;
+    /* 18px; */
+    line-height: 1.341rem;
+    /* 26.82px; */
+}

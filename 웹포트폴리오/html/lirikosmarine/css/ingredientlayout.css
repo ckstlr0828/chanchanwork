@@ -1,0 +1,296 @@
+#ingredient_visual{
+    background: url("../img/brandStorywrap_3.gif") no-repeat center;
+    background-size: cover;
+}
+/* ingredient_content_cover */
+#ingredient_content_cover{
+    width: 100%;
+    height: calc(100vh - 6.3rem);
+    /* calc(100vh - 126px); */
+    position: relative;
+    overflow: hidden;
+}
+#ingredient_content_cover video{
+    height: 100%;
+    min-width: 100%;
+    min-height: 56.25vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#ingredient_content_cover #ingredient_content_cover_textbox{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#ingredient_content_cover #ingredient_content_cover_textbox h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.65rem;
+    /* 33px; */
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.9rem;
+    /* 38px; */
+    padding-bottom: 1.5rem;
+    /* 30px; */
+}
+#ingredient_content_cover #ingredient_content_cover_textbox p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.75rem;
+    /* 15px; */
+    font-weight: 400;
+    color: #fff;
+    line-height: 1rem;
+    /* 20px; */
+}
+/* ingredient_content_cover */
+
+/* content_cover */
+.content_cover{
+    width: 100%;
+    height: calc(100vh - 6.3rem);
+    /* calc(100vh - 126px); */
+    position: relative;
+}
+.content_cover .content_cover_textbox{
+    position: absolute;
+    padding: 0 0 6rem 8.4rem;
+    /* 0 0 120px 168px; */
+    bottom: 0;
+    left: 0;
+}
+.content_cover .content_cover_textbox h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.65rem;
+    /* 33px; */
+    font-weight: 700;
+    line-height: 1.9rem;
+    /* 38px; */
+    color: #fff;
+    padding-bottom: 1.5rem;
+    /* 30px; */
+}
+.content_cover .content_cover_textbox p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.75rem;
+    /* 15px; */
+    font-weight: 400;
+    line-height: 1rem;
+    /* 20px; */
+    color: #fff;
+    width: 37.5%;
+}
+#ingredient_deepseasalt .content_cover .content_cover_textbox h3{
+    color: #37494b;
+}
+#ingredient_deepseasalt .content_cover .content_cover_textbox p{
+    color: #666666;
+}
+
+#ingredient_deepseawater .content_cover{
+    background: url("../img/ingredient_deepseawater_cover.png") no-repeat center;
+    background-size: cover;
+}
+#ingredient_salicorniaeuropaea .content_cover{
+    background: url("../img/ingredient_salicorniaeuropaea_cover.png") no-repeat center;
+    background-size: cover;
+}
+#ingredient_artemisiacapillaris .content_cover{
+    background: url("../img/ingredient_artemisiacapillaris_cover.png") no-repeat center;
+    background-size: cover;
+}
+#ingredient_westseamud .content_cover{
+    background: url("../img/ingredient_westseamud_cover.png") no-repeat center;
+    background-size: cover;
+}
+#ingredient_deepseasalt .content_cover{
+    background: url("../img/ingredient_deepseasalt_cover.png") no-repeat center;
+    background-size: cover;
+}
+/* content_cover */
+
+/* content_of_goods */
+/* goods_textwrap */
+.content_of_goods{
+    padding: 3.75rem 8.4rem;
+    /* 75px 168px; */
+    position: relative;
+}
+.content_of_goods .goods_textwrap{
+    padding: 2.25rem 0;
+    /* 45px 0; */
+    width: 320px;
+    overflow: hidden;
+    display: inline-block;
+}
+#ingredient_deepseawater .content_of_goods .goods_textwrap ul,
+#ingredient_artemisiacapillaris .content_of_goods .goods_textwrap ul,
+#ingredient_deepseasalt .content_of_goods .goods_textwrap ul,
+#ingredient_salicorniaeuropaea .content_of_goods .goods_textwrap ul,
+#ingredient_westseamud .content_of_goods .goods_textwrap ul{
+    width:640px;
+    height: 100%;
+}
+#ingredient_deepseawater .content_of_goods .goods_textwrap ul li,
+#ingredient_artemisiacapillaris .content_of_goods .goods_textwrap ul li,
+#ingredient_deepseasalt .content_of_goods .goods_textwrap ul li,
+#ingredient_salicorniaeuropaea .content_of_goods .goods_textwrap ul li,
+#ingredient_westseamud .content_of_goods .goods_textwrap ul li{
+    width:320px;
+    height: 100%;
+    float: left;
+    margin-bottom: 1rem;
+}
+.content_of_goods .goods_textwrap ul li span{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.75rem;
+    /* 15px; */
+    font-weight: 400;
+    line-height: 0.6rem;
+    /* 12px; */
+    color: #666666;
+    padding-bottom: 1.5rem;
+    /* 30px; */
+    display: inline-block;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 2s .5s, opacity 2s .35s;
+}
+.content_of_goods .goods_textwrap ul li h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5rem;
+    /* 30px; */
+    font-weight: 700;
+    line-height: 1.75rem;
+    /* 35px; */
+    color: #37494b;
+    padding-bottom: 1.5rem;
+    /* 30px; */
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 2s .5s, opacity 2s .35s;
+}
+.content_of_goods .goods_textwrap ul li h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    /* 20px; */
+    font-weight: 700;
+    line-height: 0.9rem;
+    /* 18px; */
+    color: #37494b;
+    padding-bottom: 1rem;
+    /* 20px; */
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 2s .5s, opacity 2s .35s;
+}
+.content_of_goods .goods_textwrap ul li p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.65rem;
+    /* 13px; */
+    font-weight: 400;
+    line-height: 1.05rem;
+    /* 21px; */
+    color: #666666;
+    padding-bottom: 2rem;
+    /* 40px; */
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 2s .5s, opacity 2s .35s;
+}
+.content_of_goods .goods_textwrap ul li .viewmore_golink{
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 2s .5s, opacity 2s .35s;
+}
+.content_of_goods .goods_textwrap ul li.ingredientProduct_1_text_slide_active span,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_1_text_slide_active h2,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_1_text_slide_active h3,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_1_text_slide_active p,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_1_text_slide_active .viewmore_golink,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_2_text_slide_active span,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_2_text_slide_active h2,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_2_text_slide_active h3,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_2_text_slide_active p,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_2_text_slide_active .viewmore_golink,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_3_text_slide_active span,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_3_text_slide_active h2,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_3_text_slide_active h3,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_3_text_slide_active p,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_3_text_slide_active .viewmore_golink,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_4_text_slide_active span,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_4_text_slide_active h2,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_4_text_slide_active h3,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_4_text_slide_active p,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_4_text_slide_active .viewmore_golink,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_5_text_slide_active span,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_5_text_slide_active h2,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_5_text_slide_active h3,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_5_text_slide_active p,
+.content_of_goods .goods_textwrap ul li.ingredientProduct_5_text_slide_active .viewmore_golink{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: transform 2s .5s, opacity 2s .35s;
+}
+
+
+[class*="nextbtn_explanation"] button{
+    margin-right: 0.75rem;
+    /* 15px; */
+}
+/* goods_textwrap */
+
+/* goods_productwrap */
+.content_of_goods .goods_productwrap{
+    float: right;
+    width: 65%;
+    height: 23.75rem;
+    /* 475px; */
+    overflow: hidden;
+}
+.content_of_goods .goods_productwrap ul li{
+    position: relative;
+    overflow: hidden;
+    opacity: .5;
+    transition: all .35s;
+}
+.content_of_goods .goods_productwrap ul li a{
+    display: block;
+    height: 100%;
+}
+.content_of_goods .goods_productwrap ul li a img{
+    height: 95%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .35s;
+}
+.content_of_goods .goods_productwrap ul li.showproduct_explanation{
+    opacity: 1;
+}
+.content_of_goods .goods_productwrap ul li.showproduct_explanation a img{
+    height: 110%;
+}
+#ingredient_deepseawater .content_of_goods .goods_productwrap ul,
+#ingredient_artemisiacapillaris .content_of_goods .goods_productwrap ul,
+#ingredient_deepseasalt .content_of_goods .goods_productwrap ul,
+#ingredient_salicorniaeuropaea .content_of_goods .goods_productwrap ul,
+#ingredient_westseamud .content_of_goods .goods_productwrap ul{
+    width:100%;
+    height: 100%;
+}
+#ingredient_deepseawater .content_of_goods .goods_productwrap ul li,
+#ingredient_artemisiacapillaris .content_of_goods .goods_productwrap ul li,
+#ingredient_deepseasalt .content_of_goods .goods_productwrap ul li,
+#ingredient_salicorniaeuropaea .content_of_goods .goods_productwrap ul li,
+#ingredient_westseamud .content_of_goods .goods_productwrap ul li{
+    width:25%;
+    height: 100%;
+    float: left;
+}
+/* goods_productwrap */
+/* content_of_goods */

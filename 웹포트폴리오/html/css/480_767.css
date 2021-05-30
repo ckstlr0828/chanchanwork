@@ -1,0 +1,45 @@
+html{font-size: 16px;}
+body{font-size: 1rem;}
+
+/* 타이틀 박스 */
+#self_introduction_textbox, .content_titlebox{
+    padding-left: 2.5rem;
+    /* 40px */
+}
+.content_titlebox .addexplanation_1,
+.content_titlebox .addexplanation_2{
+    display: block;
+    font-size: 1.2rem;
+}
+.content_titlebox .addexplanation_2{
+    padding-top: 0.8rem;
+}
+#self_introduction_textbox h1{
+    font-size: 2.5rem;
+    /* 40px */
+    width: 27rem;
+}
+.content_titlebox h1{
+    font-size: 2.5rem;
+    /* 40px */
+    line-height: 2.5rem;
+    /* 40px; */
+    width: 27rem;
+}
+/* 타이틀 박스 */
+
+/* 우측 nav */
+#fp-nav{
+    display: none;
+}
+/* 우측 nav */
+
+/* footer */
+#footer_wrap #footer_information a{
+    font-size: 0.8125rem;
+    /* 13px; */
+}
+/* footer */
+
+
+

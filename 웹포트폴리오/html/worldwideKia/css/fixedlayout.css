@@ -1,0 +1,419 @@
+/* 초기화 코드 */
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/css?family=Do+Hyeon&amp;subset=korean);
+
+@-ms-viewport{width:device-width;}
+@-o-viewport{width:device-width;}
+@-moz-viewport{width:device-width;}
+@-webkit-viewport{width:device-width;}
+@viewport{width:device-width;}
+@font-face{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body { background:#fff;font-family:"gulim", sans-serif;font-size:12px;color:#5b5b5b;line-height:100%;font-weight:normal;padding:0px;margin:0px;letter-spacing:-0px; }
+html, body { width:100%;height:100%;letter-spacing:0px; }
+div, p, ul, li, table, th, td, textarea, input, span, form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, sup {padding:0px;margin:0px;}
+ul, ol, dl, dd, dt, li { list-style-type:none;margin:0;padding:0px;line-height:100%;font-size:12px;color:#5b5b5b;letter-spacing:0px; }
+form, fieldset, p {margin:0;padding:0;border:0;}
+img {border:0;vertical-align:middle;outline:none;}
+
+
+a,a:link,a:visited,a:active{color:#575757;letter-spacing:normal;text-decoration:none;letter-spacing:-0.8px;}
+a:hover{color:#575757;text-decoration:none;}
+
+.clearfix::after{content:""; display:block; clear:both;}
+.container_1{padding: 0 208px; margin: 0 auto;}
+.container_2{padding: 0 375px;}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+body{
+    font-size: 1rem;
+    overflow-x: hidden;
+}
+/* 초기화 코드 */
+
+/* header */
+#header_wrap{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+header{
+    padding: 0.5rem 2rem;
+    /* 10px 40px; */
+    transition: all .35s;
+}
+.changeColor{
+    background-color: #fff;
+}
+header > #logo{
+    width: 4.25rem;
+    /* 85px; */
+    height: 1.05rem;
+    /* 21px; */
+    float: left;
+    padding: 1rem 0;
+    /* 20px 0; */
+}
+header > #logo img{
+    width: 100%;
+}
+header > #menubtn_box{
+    padding: 1rem 0 1rem 0.5rem;
+    /* 20px 0 20px 10px; */
+    float: right;
+}
+header > #menubtn_box input[id="menu_btn"]{
+    display: none;
+}
+header > #menubtn_box input[id="menu_btn"] + label{
+    display: block;
+    width: 20px;
+    height: 16px;
+    position: relative;
+    cursor: pointer;
+    z-index: 90;
+}
+header > #menubtn_box input[id="menu_btn"] + label span{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: all .35s;
+}
+header > #menubtn_box input[id="menu_btn"] + label span:nth-child(1){
+    top: 0;
+}
+header > #menubtn_box input[id="menu_btn"] + label span:nth-child(2){
+    top: 50%;
+    transform: translateY(-50%);
+}
+header > #menubtn_box input[id="menu_btn"] + label span:nth-child(3){
+    bottom: 0;
+}
+header > #menubtn_box input[id="menu_btn"]:checked + label span:nth-child(1){
+    top:50%;
+    transform: translateY(-50%) rotate(45deg);
+    background-color: #000;
+}
+header > #menubtn_box input[id="menu_btn"]:checked + label span:nth-child(2){
+    opacity: 0;
+    background-color: #000;
+}
+header > #menubtn_box input[id="menu_btn"]:checked + label span:nth-child(3){
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+    background-color: #000;
+}
+
+/* menu_box */
+header #menu_box{
+    height: calc(100vh);
+    width: 270px;
+    background-color: #f3f3f3;
+    position: fixed;
+    right: -270px;
+    top: 0;
+    transition: all .35s;
+}
+header > #menubtn_box input[id="menu_btn"]:checked + label + #menu_box{
+    right:0;
+}
+header #menu_box > #menu_navbox{
+    height: calc(68vh);
+}
+header #menu_box > #menu_imgbox{
+    height: calc(32vh);
+    width: 270px;
+    overflow: hidden;
+}
+header #menu_box > #menu_imgbox ul{
+    display: flex;
+    width: 1080px;
+    animation:menuimgslide 8s infinite;
+}
+header #menu_box > #menu_imgbox ul li{
+    width: 270px;
+    height: calc(32vh);
+}
+header #menu_box > #menu_imgbox ul li:nth-child(1){
+    background: url("../img/menu_imgbox.png") no-repeat;
+    background-size: 100%;
+}
+header #menu_box > #menu_imgbox ul li:nth-child(2){
+    background: url("../img/menu_imgbox_3.png") no-repeat;
+    background-size: 100%;
+}
+header #menu_box > #menu_imgbox ul li:nth-child(3){
+    background: url("../img/menu_imgbox_2.png") no-repeat;
+    background-size: 100%;
+}
+header #menu_box > #menu_imgbox ul li:nth-child(4){
+    background: url("../img/menu_imgbox_4.png") no-repeat;
+    background-size: 100%;
+}
+@keyframes menuimgslide {
+    0% {margin-left:0;} /* 0 ~ 10  : 정지 */
+    10% {margin-left:0;} /* 10 ~ 25 : 변이 */
+    25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
+    35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+    50% {margin-left:-200%;}
+    60% {margin-left:-200%;}
+    75% {margin-left:-300%;}
+    85% {margin-left:-300%;}
+    100% {margin-left:0;}
+  }
+header #menu_box > #menu_navbox >  nav{
+    padding: 180px 0 180px 80px;
+}
+header #menu_box > #menu_navbox >  nav > span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+    line-height: 10px;
+}
+header #menu_box > #menu_navbox >  nav ul{
+    padding-top: 30px;
+}
+header #menu_box > #menu_navbox >  nav a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #838383;
+    line-height: 26.82px;
+    text-decoration: none;
+    transition: all .35s;
+    padding: 5px 5px 5px 0;
+    display: block;
+}
+header #menu_box > #menu_navbox >  nav a:hover{
+    color: #000;
+}
+
+/* menu_box */
+/* header */
+#section_wrap{
+    width: 100%;
+}
+/* visual_titlebox */
+.visual_titlebox{
+    padding: 0 0 6rem 10.4rem;
+    /* 0 0 120px 208px; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* width: 95%; */
+}
+.visual_titlebox > p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    /* 16px; */
+    font-weight: 700;
+    color: #fff;
+    line-height: 0.8rem;
+    /* 16px; */
+    padding-bottom: 2rem;
+    /* 40px; */
+    display: block;
+    /* width: 90%; */
+}
+.visual_titlebox > h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5rem;
+    /* 90px; */
+    font-weight: 700;
+    color: #fff;
+    line-height: 4.5rem;
+    /* 90px; */
+    text-transform: uppercase;
+    line-height: 3.991rem;
+    /* 79.82px; */
+    margin-left: -2px;
+    display: inline-block;
+    /* width: 90%; */
+}
+/* visual_titlebox */
+
+
+/* intro_titlebox */
+.intro_titlebox{
+    text-align: center;
+}
+.intro_titlebox > p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    /* 16px; */
+    font-weight: 700;
+    color: #fff;
+    line-height: 0.8rem;
+    /* 16px; */
+}
+.intro_titlebox > h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.8rem;
+    /* 36px; */
+    font-weight: 700;
+    color: #fff;
+    line-height: 2.291rem;
+    /* 45.82px; */
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    /* 30px; */
+}
+/* intro_titlebox */
+
+/* content_tiltebox */
+[class*="content_tiltebox"]{
+    width: 100%;
+    height: 27.75rem;
+    /* 555px; */
+    position: relative;
+}
+[class*="content_tiltebox"] h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5rem;
+    /* 90px; */
+    font-weight: 700;
+    color: #fff;
+    line-height: 3.991rem;
+    /* 79.82px; */
+    padding: 0 0 2rem 18.75rem;
+    /* 0 0 60px 375px; */
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+}
+[class*="content_explanationbox"]{
+    padding: 2rem 0 6rem 0;
+    /* 60px 0 120px 0; */
+}
+[class*="content_explanationbox"] h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.8rem;
+    /* 36px; */
+    font-weight: 700;
+    color: #000;
+    line-height: 2.291rem;
+    /* 45.82px; */
+}
+[class*="content_explanationbox"] h4{
+    padding-top: 2rem;
+    /* 40px; */
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.8rem;
+    /* 16px; */
+    font-weight: 700;
+    color: #333333;
+    line-height: 1.391rem;
+    /* 27.82px; */
+}
+[class*="content_explanationbox"] p{
+    padding-top: 0.6rem;
+    /* 12px; */
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.65rem;
+    /* 13px; */
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.241rem;
+    /* 24.82px; */
+}
+/* content_tiltebox */
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: #000;
+}
+footer #footer_container{
+    padding: 0 4rem;
+    /* 0 80px; */
+}
+footer #footer_container #header_line1{
+    padding: 3.5rem 0 5rem 0;
+    /* 70px 0 100px 0; */
+}
+footer #footer_container #header_line1 #footerLogo{
+    width: 4.4rem;
+    /* 88px; */
+    height: 1.1rem;
+    /* 22px; */
+    display: inline-block;
+}
+
+footer #footer_container #header_line1 #footerLogo img{
+    width: 100%;
+}
+footer #footer_container #header_line1 #footer_textbox, 
+footer #footer_container #header_line1 #footer_textbox li{
+    display: inline-block;
+}
+footer #footer_container #header_line1 #footer_textbox ul{
+    margin-left: 1.75rem;
+    /* 35px; */
+    position: relative;
+}
+footer #footer_container #header_line1 #footer_textbox li a{
+    font-size: 0.7rem;
+    /* 14px; */
+    line-height: 1.1rem;
+    /* 22px; */
+    font-weight: 400;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    padding: 0 0.75rem;
+    /* 0 15px; */
+}
+footer #footer_container #header_line1 #footer_textbox p{
+    position: absolute;
+    padding: 1.25rem 0 0 2.5rem;
+    /* 25px 0 0 50px; */
+    font-size: 0.5rem;
+    /* 10px; */
+    line-height: 0.5rem;
+    /* 10px; */
+    font-weight: 400;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+}
+footer #footer_container #header_line1 #top_btn{
+    float: right;
+    cursor: pointer;
+}
+footer #footer_container #header_line1 #top_btn a{
+    display: block;
+}
+footer #footer_container #header_line1 #top_btn span{
+    display: block;
+    width: 1rem;
+    /* 20px; */
+    height: 1rem;
+    /* 20px; */
+}
+footer #footer_container #header_line1 #top_btn span img{
+    width: 100%;
+}
+footer #footer_container #header_line1 #top_btn p{
+    padding-top: 1px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6rem;
+    /* 12px; */
+    font-weight: 400;
+    color: #fff;
+    line-height: 0.6rem;
+    /* 12px; */
+    margin-left: 0.1rem;
+    /* 2px; */
+}
+/* footer */

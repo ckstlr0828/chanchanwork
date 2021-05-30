@@ -1,0 +1,90 @@
+html{font-size: 16px;}
+body{font-size: 1rem;}
+
+/* header */
+header{
+    margin: 0 2rem;
+}
+header #logo{
+    width: 5rem;
+    height: 1.65rem;
+}
+header nav{
+    display: none;
+}
+header nav > ul > li > a{
+    font-size: 0.65rem;
+}
+/* header */
+
+/* ----------------------------- main ----------------------------- */
+
+/* main_visual */
+
+/* main_visual */
+
+/* main_sermontoday */
+#main_sermontoday{
+    padding: 6rem 2rem;
+}
+.main_titlebox p{
+    width: auto;
+}
+/* main_sermontoday */
+
+/* main_church */
+#main_church{
+    height: auto;
+}
+#main_church #church_contents{
+    padding: 4rem 2rem 6rem 2rem;
+    /* 80px; */
+}
+#main_church #church_contents ul{
+    width: 100%;
+}
+#main_church #church_contents ul li{
+    width: 47.5%;
+    margin-left: 5%;
+}
+#main_church #church_contents ul li:nth-child(2n+1){
+    margin-left: 0;
+}
+#main_church #church_contents ul li:nth-child(3),
+#main_church #church_contents ul li:nth-child(4){
+    margin-top: 5%;
+}
+/* main_church */
+
+/* main_community */
+#main_community{
+    padding: 6rem 2rem;
+}
+#main_community #community_contents ul li .community_text{
+    margin-left: 2rem;
+}
+/* main_community */
+
+
+/* ----------------------------- main ----------------------------- */
+
+/* footer */
+footer{
+    padding: 2.5rem 2rem;
+}
+footer #footer_logo{
+    float: none;
+}
+footer #footer_text{
+    margin-left: -0.5rem;
+    margin-top: 1.5rem;
+}
+footer #footer_text #footer_info{
+    padding-bottom: 1rem;
+}
+footer #footer_text #footer_info p{
+    display: block;
+    padding-left: 0.5rem;
+
+}
+/* footer */

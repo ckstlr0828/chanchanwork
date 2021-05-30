@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lirikosmarine</title>
+    <link rel="shortcut icon" type="image⁄x-icon" href="img/favicon-83x83.png" />
+    <link href="css/fixedlayout.css" rel="stylesheet" type="text/css" />
+    <link href="css/ingredientlayout.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/1024_1280.css" type="text/css" media="screen and (min-width:1024px) and (max-width:1280px)"/>
+    <link rel="stylesheet" href="css/768_1023.css" type="text/css" media="screen and (min-width:768px) and (max-width:1023px)"/>
+    <link rel="stylesheet" href="css/480_767.css" type="text/css" media="screen and (min-width:480px) and (max-width:767px)"/>
+    <link rel="stylesheet" href="css/479.css" type="text/css" media="screen and (max-width:479px)"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/fixed.js"></script>
+    <script type="text/javascript" src="js/subVisualTopEvent.js"></script>
+    <script type="text/javascript" src="js/ingredientProduct.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <div id="header_wrap">
+            <header class="clearfix">
+                <div id="logo">
+                    <h1>
+                        <a href="index.html">
+                            <img src="img/lirikosmarine_logo.png" alt="리리코스마린에너지 로고" />
+                        </a>
+                    </h1>
+                </div>
+                <div id="menubtn_box">
+                    <input type="checkbox" id="menu_btn">
+                    <label for="menu_btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <!-- menu -->
+                    <div id="menu_box">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="ingredient.html">Ingredients</a>
+                            </li>
+                            <li>
+                                <a href="brandStory.html">Story</a>
+                            </li>
+                            <li>
+                                <a href="productlist_basics.html">Product</a>
+                            </li>
+                            <li>
+                                <a href="whatsNew.html">What’s new</a>
+                            </li>
+                        </ul>
+                        <p>© AMOREPACIFIC CORPORATION. All rights reserved.</p>
+                    </div>
+                    <!-- menu -->
+                </div>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="ingredient.html">Ingredients</a>
+                        </li>
+                        <li>
+                            <a href="brandStory.html">Story</a>
+                            <ul>
+                                <li>
+                                    <a href="brandStory.html">Brandstory</a>
+                                </li>
+                                <li>
+                                    <a href="designStory.html">Designstory</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="productlist_basics.html">Product</a>
+                        </li>
+                        <li>
+                            <a href="whatsNew.html">What’s new</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div id="search_btn">
+                    <span>
+                        <img src="img/search_icon.png" alt="검색 아이콘" />
+                    </span>
+                </div>
+            </header>
+        </div>
+        <!-- header -->
+        <div id="section_wrap">
+            <section class="ingredient_brand_visual" id="ingredient_visual">
+                <!-- <video id="vid" poster="img/ingredient_visual_poster.png" loop="loop" autoplay="autoplay" muted="muted">
+                    <source src="video/brandStorywrap_3.mp4" type="video/mp4">
+                </video> -->
+                <div class="ingredient_brand_visual_textbox">
+                    <p>lirikos marine energy</p>
+                    <h2>ingredients</h2>
+                </div>
+                <div class="ingredient_brand_visual_downbtn">
+                    <button>
+                        <span></span>
+                    </button>
+                </div>
+            </section>
+
+            <section id="ingredient_content_cover">
+                <video id="vid" poster="img/ingredient_content_cover_poster.png" loop="loop" autoplay="autoplay" muted="muted">
+                    <source src="video/ingredient_content_cover.mp4" type="video/mp4">
+                </video>
+                <div id="ingredient_content_cover_textbox">
+                    <h3>MARINE INGREDIENTS<br/>
+                        INFINITE POSSIBILITIES OF THE SEA</h3>
+                    <p>Rich in minerals, skin stress relief, and moisturizing efficacy.<br/>
+                        Discover the energy of marine ingredients.</p>
+                </div>
+            </section>
+
+            <section id="ingredient_deepseawater">
+                <div class="content_cover">
+                    <div class="content_cover_textbox">
+                        <h3>DEEP SEA WATER</h3>
+                        <p>Water, the most important substance in cosmetics. Deep Sea Water in Lirikos Marine Energy is the clean water rich in minerals from more than 200 m underwater away from the sunlight, bacteria, and pollution. It fills one's dry skin with moisture and makes your skin look revitalized.</p>
+                    </div>
+                </div>
+                <div class="content_of_goods">
+                    <div class="goods_textwrap">
+                        <div class="goods_explanation">
+                            <ul class="clearfix ingredientProduct_1_text_slideList">
+                                <li class="ingredientProduct_1_text_slideContents">
+                                    <span>RELATED PRODUCTS</span>
+                                    <h2>DEEP SEA WATERFALL TONER</h2>
+                                    <h3>DETAIL</h3>
+                                    <p>The slightly acidic toner that quenches the skin thirst to enhance the condition of your skin.</p>
+                                    <div class="viewmore_golink">
+                                        <a href="productdetails_deep_sea_waterfall_toner.html">Discover more</a>
+                                    </div>
+                                </li>
+                                <li class="ingredientProduct_1_text_slideContents">
+                                    <span>RELATED PRODUCTS</span>
+                                    <h2>DEEP SEA WATERFALL CREAM</h2>
+                                    <h3>DETAIL</h3>
+                                    <p>Moisturizing gel cream to replenish your skin with moisture.</p>
+                                    <div class="viewmore_golink">
+                                        <a href="productdetails_deep_sea_waterfall_cream.html">Discover more</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nextbtn_explanation_deepseawater">
+                            <button class="ingredientProduct_1_slide_btnPrev">
+                                <span></span>
+                            </button>
+                            <button class="ingredientProduct_1_slide_btnNext">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="goods_productwrap">
+                        <ul class="clearfix ingredientProduct_1_img_slideList">
+                            <li class="ingredientProduct_1_img_slideContents">
+                                <a href="productdetails_deep_sea_waterfall_toner.html">
+                                    <img src="img/ingredient_goods_1.png" alt="DEEP SEA WATERFALL TONER" />
+                                </a>
+                            </li>
+                            <li class="ingredientProduct_1_img_slideContents">
+                                <a href="productdetails_deep_sea_waterfall_cream.html">
+                                    <img src="img/ingredient_goods_2.png" alt="DEEP SEA WATERFALL CREAM" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ingredient_salicorniaeuropaea">
+                <div class="content_cover">
+                    <div class="content_cover_textbox">
+                        <h3>SALICORNIA EUROPAEA</h3>
+                        <p>Salicornia europaea, the cactus of ocean that absorbs the moisture of wetlands!  The rich nourishment in Salicornia europaea leaves the skin healthy and smooth. The Salicornia europaea seed extracts from the seeds found in Korean seas protect and emulsifies the skin for healthier, rejuvenated-looking skin.</p>
+                    </div>
+                </div>
+                <div class="content_of_goods">
+                    <div class="goods_textwrap">
+                        <div class="goods_explanation">
+                            <ul class="clearfix ingredientProduct_2_text_slideList">
+                                <li class="ingredientProduct_2_text_slideContents">
+                                    <span>RELATED PRODUCTS</span>
+                                    <h2>TRUE AMPOULE MASK</h2>
+                                    <h3>DETAIL</h3>
+                                    <p>The ampoule sheet mask, which is enriched with precious marine-origin ingredients, helps to moisturize the skin.</p>
+                                    <div class="viewmore_golink">
+                                        <a href="productdetails_true_ampoule_mask.html">Discover more</a>
+                                    </div>
+                                </li>
+                                <li class="ingredientProduct_2_text_slideContents">
+                                    <span>RELATED PRODUCTSs</span>
+                                    <h2>HYDRATING PULSE ESSENCE LOTION</h2>
+                                    <h3>DETAIL</h3>
+                                    <p>The light and fresh formula of water-like essence type keeps the skin comfortable and moisturized.</p>
+                                    <div class="viewmore_golink">
+                                        <a href="productdetails_hydrating_pulse_essence_lotion.html">Discover more</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nextbtn_explanation_salicorniaeuropaea">
+                            <button class="ingredientProduct_2_slide_btnPrev">
+                                <span></span>
+                            </button>
+                            <button class="ingredientProduct_2_slide_btnNext">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="goods_productwrap">
+                        <ul class="clearfix ingredientProduct_2_img_slideList">
+                            <li class="ingredientProduct_2_img_slideContents">
+                                <a href="productdetails_true_ampoule_mask.html">
+                                    <img src="img/ingredient_goods_3.png" alt="TRUE AMPOULE MASK" />
+                                </a>
+                            </li>
+                            <li class="ingredientProduct_2_img_slideContents">
+                                <a href="productdetails_hydrating_pulse_essence_lotion.html">
+                                    <img src="img/ingredient_goods_4.png" alt="HYDRATING PULSE ESSENCE LOTION" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ingredient_artemisiacapillaris">
+                <div class="content_cover">
+                    <div class="content_cover_textbox">
+                        <h3>ARTEMISIA CAPILLARIS</h3>
+                        <p>Artemisia capillaris provides solid derma solution through two efficacies. It protects the skin from harmful environment,and soothes sensitive skin. Artemisia capillaris is a salt-resisting plant of Korea found in the coastal areas with high salinity. We use deep sea water to create the environment of its habitat to extract the active substances and refined the purity through the filtering process. By doing so, we have completed the the rich concentrate of Artemisia capillaris.</p>
+                    </div>
+                </div>
+                <div class="content_of_goods">
+                    <div class="goods_textwrap">
+                        <div class="goods_explanation">
+                            <ul class="clearfix ingredientProduct_3_text_slideList">
+                                <li class="ingredientProduct_3_text_slideContents">
+                                    <span>RELATED PRODUCTS</span>
+                                    <h2>CALMING PURE WATER</h2>
+                                    <h3>DETAIL</h3>
+                                    <p>The slightly acidic toner that quenches the skin thirst to enhance the condition of your skin.</p>
+                                    <div class="viewmore_golink">
+                                        <a href="productdetails_calming_pure_water.html">Discover more</a>
+                                    </div>
+                                </li>
+                                <li class="ingredientProduct_3_text_slideContents">
+                                    <span>RELATED PRODUCTS</span>
+                                    <h2>TRUE AMPOULE MASK</h2>
+                                    <h3>DETAIL</h3>
+                                    <p>The ampoule sheet mask, which is enriched with precious marine-origin ingredients, helps to moisturize the skin.</p>
+                                    <div class="viewmore_golink">
+                                        <a href="productdetails_true_ampoule_mask.html">Discover more</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nextbtn_explanation_artemisiacapillaris">
+                            <button class="ingredientProduct_3_slide_btnPrev">
+                                <span></span>
+                            </button>
+                            <button class="ingredientProduct_3_slide_btnNext">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="goods_productwrap">
+                        <ul class="clearfix ingredientProduct_3_img_slideList">
+                            <li class="ingredientProduct_3_img_slideContents">
+                                <a href="productdetails_calming_pure_water.html">
+                                    <img src="img/ingredient_goods_6.png" alt="CALMING PURE WATER" />
+                                </a>
+                            </li>
+                            <li class="ingredientProduct_3_img_slideContents">
+                                <a href="productdetails_true_ampoule_mask.html">
+                                    <img src="img/ingredient_goods_3.png" alt="TRUE AMPOULE MASK" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ingredient_westseamud">
+                <div class="content_cover">
+                    <div class="content_cover_textbox">
+                        <h3>WEST SEA MUD</h3>
+                        <p>It is the pearl mud gathered from the wetlands of West Sea that have been piled in layers for thousands of years. The wetlands have created and cherished the vitality of ocean for a long time and condensed the powerful and clean energy of ocean. The West Sea is known for its shallow waters and condensed mud containing various living plankton and algae. The mud( in Deep Cleansing Foam) adheres to the skin with fine and even particles.</p>
+                    </div>
+                </div>
+                <div class="content_of_goods">
+                    <div class="goods_textwrap">
+                        <div class="goods_explanation">
+                            <ul class="clearfix ingredientProduct_4_text_slideList">
+                                <li class="ingredientProduct_4_text_slideContents">
+                                    <span>RELATED PRODUCTS</span>
+                                    <h2>3-MINUTE CLAY MASK</h2>
+                                    <h3>DETAIL</h3>
+                                    <p>White clay mask that helps to clean pores to remove extra sebum on the skin.</p>
+                                    <div class="viewmore_golink">
+                                        <a href="productdetails_three_minute_clay_mask.html">Discover more</a>
+                                    </div>
+                                </li>
+                                <li class="ingredientProduct_4_text_slideContents">
+                                    <span>RELATED PRODUCTS</span>
+                                    <h2>DEEP CLEANSING FOAM</h2>
+                                    <h3>DETAIL</h3>
+                                    <p>The cleansing foam containing mud and sea salt makes the skin clean by removing impurities accumulated on the skin with its dense foam and fine scrub.</p>
+                                    <div class="viewmore_golink">
+                                        <a href="productdetails_deep_cleansing_foam.html">Discover more</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nextbtn_explanation_westseamud">
+                            <button class="ingredientProduct_4_slide_btnPrev">
+                                <span></span>
+                            </button>
+                            <button class="ingredientProduct_4_slide_btnNext">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="goods_productwrap">
+                        <ul class="clearfix ingredientProduct_4_img_slideList">
+                            <li class="ingredientProduct_4_img_slideContents">
+                                <a href="productdetails_three_minute_clay_mask.html">
+                                    <img src="img/ingredient_goods_7.png" alt="3-MINUTE CLAY MASK" />
+                                </a>
+                            </li>
+                            <li class="ingredientProduct_4_img_slideContents">
+                                <a href="productdetails_deep_cleansing_foam.html">
+                                    <img src="img/ingredient_goods_8.png" alt="DEEP CLEANSING FOAM" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="ingredient_deepseasalt">
+                <div class="content_cover">
+                    <div class="content_cover_textbox">
+                        <h3>DEEP SEA SALT</h3>
+                        <p>Deep sea salt, the hidden white treasure of the ocean. Salt is easy to find around us, but it has special effects that have not known before. It is white treasure that nourishes the skin. Deep Sea Salt is extracted by concentrating the deep sea water rich in minerals twice. Deep Sea Salt condenses the energy of deep sea water! It provides rich minerals to one's skin.</p>
+                    </div>
+                </div>
+                <div class="content_of_goods">
+                    <div class="goods_textwrap">
+                        <div class="goods_explanation">
+                            <ul class="clearfix ingredientProduct_5_text_slideList">
+                                <li class="ingredientProduct_5_text_slideContents">
+                                    <span>RELATED PRODUCTS</span>
+                                    <h2>BALANCING EMULSION with DEEP SEA SALT</h2>
+                                    <h3>DETAIL</h3>
+                                    <p>The water splashing emulsion that quickly absorbs on the skin with smooth texture.</p>
+                                    <div class="viewmore_golink">
+                                        <a href="productdetails_balancing_emulsion.html">Discover more</a>
+                                    </div>
+                                </li>
+                                <li class="ingredientProduct_5_text_slideContents">
+                                    <span>RELATED PRODUCTS</span>
+                                    <h2>HYDRO PEELING CREAM</h2>
+                                    <h3>DETAIL</h3>
+                                    <p>The hydro peeling cream that exfoliates and moisturizes at the same time to enhance the condition of your skin.</p>
+                                    <div class="viewmore_golink">
+                                        <a href="productdetails_hydro_peeling_cream.html">Discover more</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nextbtn_explanation_deepseasalt">
+                            <button class="ingredientProduct_5_slide_btnPrev">
+                                <span></span>
+                            </button>
+                            <button class="ingredientProduct_5_slide_btnNext">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="goods_productwrap">
+                        <ul class="clearfix ingredientProduct_5_img_slideList">
+                            <li class="ingredientProduct_5_img_slideContents">
+                                <a href="productdetails_balancing_emulsion.html">
+                                    <img src="img/ingredient_goods_10.png" alt="BALANCING EMULSION with DEEP SEA SALT" />
+                                </a>
+                            </li>
+                            <li class="ingredientProduct_5_img_slideContents">
+                                <a href="productdetails_hydro_peeling_cream.html">
+                                    <img src="img/ingredient_goods_11.png" alt="HYDRO PEELING CREAM" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <footer>
+                <div id="topbtn">
+                    <button></button>
+                </div>
+                <div id="footer_wrap1">
+                    <ul id="footer_text1">
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms and Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Sitemap</a>
+                        </li>
+                    </ul>
+                    <ul id="footer_icon">
+                        <li>
+                            <span></span>
+                        </li>
+                        <li>
+                            <span></span>
+                        </li>
+                    </ul>
+                </div>
+                <p id="footer_wrap2">© AMOREPACIFIC CORPORATION. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

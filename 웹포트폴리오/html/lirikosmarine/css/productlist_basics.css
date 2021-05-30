@@ -1,0 +1,364 @@
+#division_wrap{
+    padding: 2.5rem;
+    /* 50px; */
+}
+#division_wrap > ul > li{
+    display: inline-block;
+    width: 8.5rem;
+    /* 170px; */
+    height: 2.5rem;
+    /* 50px; */
+    position: relative;
+    border-bottom: 1px solid #b3b3b3;
+}
+#division_wrap > ul > li:nth-child(1){
+    margin-right: 2.5rem;
+    /* 50px; */
+}
+#division_wrap > ul > li:nth-child(1)::after{
+    content: "";
+    display: block;
+    height: 1.5rem;
+    /* 30px; */
+    width: 1px;
+    background-color: #b3b3b3;
+    position: absolute;
+    right: -1.25rem;
+    /* -25px; */
+    top: 50%;
+    transform: translateY(-50%);
+}
+#division_wrap > ul > li:nth-child(3){
+    float: right;
+}
+#division_wrap > ul > li > span{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    /* 15px; */
+    color: #37494b;
+    line-height: 0.65rem;
+    /* 13px; */
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    transform: translateY(-50%);
+}
+#division_wrap > ul > li > button{
+    width: 1.25rem;
+    /* 25px; */
+    height: 1.25rem;
+    /* 25px; */
+    border-radius: 100%;
+    border: 1px solid #b3b3b3;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .35s;
+}
+#division_wrap > ul > li > button span{
+    width: 0.5rem;
+    /* 10px; */
+    height: 0.3rem;
+    /* 6px; */
+    display: block;
+    transform: translate(-50%, -50%) rotate(0);
+    position: absolute;
+    top: 50%;
+    right: 0.075rem;
+    /* 1.5px; */
+    background: url("../img/division_dropdown_1.png") no-repeat center;
+    background-size: 80%;
+    transition: all .35s;
+}
+#division_wrap > ul > li > button:hover{
+    border: 1px solid #007a88;
+    background-color: #007a88;
+}
+#division_wrap > ul > li > button:hover span{
+    background: url("../img/division_dropdown_2.png")no-repeat center;
+    background-size: 80%;
+}
+#division_wrap > ul > li > ul{
+    position: absolute;
+    top: 2.7rem;
+    /* 50px; */
+    padding-top: 0.65rem;
+    /* 13px; */
+    display: none;
+    background-color: #fff;
+    z-index: 90;
+    padding-right: 2rem;
+}
+#division_wrap > ul > li > ul > li{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    /* 15px; */
+    color: #37494b;
+    line-height: 0.65rem;
+    /* 13px; */
+    padding: 0.65rem 0;
+    /* 13px 0; */
+    transition: all .35s;
+}
+#division_wrap > ul > li > ul > li:hover{
+    color: #007a88;
+}
+#productlist_wrap{
+    padding-top: 3.5rem;
+    /* 70px; */
+}
+#productlist_wrap #productlist_title{
+    text-align: center;
+}
+#productlist_wrap #productlist_title h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 1.8rem;
+    /* 36px; */
+    color: #37494b;
+    line-height: 1.5rem;
+    /* 30px; */
+    font-weight: 700;
+    padding-bottom: 1.25rem;
+    /* 25px; */
+}
+#productlist_wrap #productlist_title p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.75rem;
+    /* 15px; */
+    line-height: 0.6rem;
+    /* 12px; */
+    color: #007a88;
+    font-weight: 700;
+}
+#productlist_wrap #productlist_basics{
+    padding: 4rem 7rem 6rem 7rem;
+    /* 80px 140px 120px 140px; */
+}
+#productlist_wrap #productlist_basics ul li{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 2rem;
+    /* 40px; */
+}
+#productlist_wrap #productlist_basics ul li a{
+    display: block;
+}
+#productlist_wrap #productlist_basics ul li:nth-child(3n+1){
+    margin-left: 0;
+}
+#productlist_wrap #productlist_basics ul li:nth-child(1),
+#productlist_wrap #productlist_basics ul li:nth-child(2),
+#productlist_wrap #productlist_basics ul li:nth-child(3){
+    margin-top: 0;
+}
+#productlist_wrap #productlist_basics ul li .product_imgbox{
+    width: 100%;
+    height: 0;
+    padding-bottom: 126%;
+    margin-bottom: 1.5rem;
+    /* 30px; */
+}
+#productlist_wrap #productlist_basics ul li .product_explanation{
+    text-align: center;
+    height: 2.5rem;
+    /* 50px; */
+}
+#productlist_wrap #productlist_basics ul li .product_explanation h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.75rem;
+    /* 15px; */
+    font-weight: 700;
+    line-height: 0.9rem;
+    /* 18px; */
+    color: #37494b;
+    padding-bottom: 0.5rem;
+    /* 10px; */
+    transition: all .35s;
+}
+#productlist_wrap #productlist_basics ul li .product_explanation p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.65rem;
+    /* 13px; */
+    line-height: 0.75rem;
+    /* 15px; */
+    color: #666666;
+    font-weight: 400;
+}
+#productlist_wrap #productlist_basics ul li:hover .product_explanation h2{
+    color: #007a88;
+}
+
+#balancing_emulsion_with_deep_sea_salt .product_imgbox{
+    background: url("../img/balancing-emulsion-with-deep-sea-salt.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#balancing_emulsion_with_deep_sea_salt:hover .product_imgbox{
+    background: url("../img/balancing-emulsion-with-deep-sea-salt_hover.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#deep_sea_waterfall_toner .product_imgbox{
+    background: url("../img/deep-sea-waterfall-toner.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#deep_sea_waterfall_toner:hover .product_imgbox{
+    background: url("../img/deep-sea-waterfall-toner_hover.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#hydro_peeling_cream .product_imgbox{
+    background: url("../img/hydro-peeling-cream.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#hydro_peeling_cream:hover .product_imgbox{
+    background: url("../img/hydro-peeling-cream_hover.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#facial_eraser_cleansing_water .product_imgbox{
+    background: url("../img/facial-eraser-cleansing-water.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#facial_eraser_cleansing_water:hover .product_imgbox{
+    background: url("../img/facial-eraser-cleansing-water_hover.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#three_minute_clay_mask .product_imgbox{
+    background: url("../img/3-minute-clay-mask.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#three_minute_clay_mask:hover .product_imgbox{
+    background: url("../img/3-minute-clay-mask_hover.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#facial_eraser_cleansing_oil_foam .product_imgbox{
+    background: url("../img/facial-eraser-cleansing-oil-foam.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#facial_eraser_cleansing_oil_foam:hover .product_imgbox{
+    background: url("../img/facial-eraser-cleansing-oil-foam_hover.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#deep_sea_waterfall_cream .product_imgbox{
+    background: url("../img/deep-sea-waterfall-cream.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#deep_sea_waterfall_cream:hover .product_imgbox{
+    background: url("../img/deep-sea-waterfall-cream_hover.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#calming_pure_water .product_imgbox{
+    background: url("../img/calming-pure-water.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#calming_pure_water:hover .product_imgbox{
+    background: url("../img/calming-pure-water_hover.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#true_ampoule_mask .product_imgbox{
+    background: url("../img/true-ampoule-mask.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#true_ampoule_mask:hover .product_imgbox{
+    background: url("../img/true-ampoule-mask_hover.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#facial_eraser_cleansing_oil .product_imgbox{
+    background: url("../img/facial-eraser-cleansing-oil.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#facial_eraser_cleansing_oil:hover .product_imgbox{
+    background: url("../img/facial-eraser-cleansing-oil_hover.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#facial_eraser_cleansing_foam .product_imgbox{
+    background: url("../img/facial-eraser-cleansing-foam.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#facial_eraser_cleansing_foam:hover .product_imgbox{
+    background: url("../img/facial-eraser-cleansing-foam_hover.png")no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#v5_facial_serum .product_imgbox{
+    background: url("../img/v5-facial-serum.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#v5_facial_serum:hover .product_imgbox{
+    background: url("../img/v5-facial-serum_hover.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#hydrating_pulse_essence_lotion .product_imgbox{
+    background: url("../img/hydrating-pulse-essence-lotion.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#hydrating_pulse_essence_lotion:hover .product_imgbox{
+    background: url("../img/hydrating-pulse-essence-lotion_hover.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#hydrating_pulse_toner .product_imgbox{
+    background: url("../img/hydrating-pulse-toner.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#hydrating_pulse_toner:hover .product_imgbox{
+    background: url("../img/hydrating-pulse-toner_hover.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#deep_cleansing_foam .product_imgbox{
+    background: url("../img/deep-cleansing-foam.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#deep_cleansing_foam:hover .product_imgbox{
+    background: url("../img/deep-cleansing-foam_hover.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#facial_eraser_cleansing_balm .product_imgbox{
+    background: url("../img/facial-eraser-cleansing-balm.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#facial_eraser_cleansing_balm:hover .product_imgbox{
+    background: url("../img/facial-eraser-cleansing-balm_hover.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#hot_melting_mud_mask .product_imgbox{
+    background: url("../img/hot-melting-mud-mask.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}
+#hot_melting_mud_mask:hover .product_imgbox{
+    background: url("../img/hot-melting-mud-mask_hover.png") no-repeat center;
+    background-size: cover;
+    transition: all .35s;
+}

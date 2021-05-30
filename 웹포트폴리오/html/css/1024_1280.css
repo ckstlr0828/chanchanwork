@@ -1,0 +1,9 @@
+html{font-size: 20px;}
+body{font-size: 1rem;}
+
+/* 타이틀 박스 */
+#self_introduction_textbox, .content_titlebox{
+    padding-left: 6.2rem;
+    /* 124px */
+}
+/* 타이틀 박스 */

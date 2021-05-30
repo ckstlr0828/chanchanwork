@@ -1,0 +1,62 @@
+html{font-size: 20px;}
+body{font-size: 1rem;}
+
+/* -------------------------- mainpage -------------------------- */
+
+/* -------------------------- mainpage -------------------------- */
+
+/* --------------------------  ingredient --------------------------  */
+.content_cover .content_cover_textbox{
+    padding: 0 0 6rem 4rem;
+}
+.content_of_goods{
+    padding: 3.75rem 4rem;
+}
+.content_of_goods .goods_textwrap{
+    width: 300px;
+}
+#ingredient_deepseawater .content_of_goods .goods_textwrap ul, #ingredient_artemisiacapillaris .content_of_goods .goods_textwrap ul, #ingredient_deepseasalt .content_of_goods .goods_textwrap ul, #ingredient_salicorniaeuropaea .content_of_goods .goods_textwrap ul, #ingredient_westseamud .content_of_goods .goods_textwrap ul{
+    width: 600px;
+}
+#ingredient_deepseawater .content_of_goods .goods_textwrap ul li, #ingredient_artemisiacapillaris .content_of_goods .goods_textwrap ul li, #ingredient_deepseasalt .content_of_goods .goods_textwrap ul li, #ingredient_salicorniaeuropaea .content_of_goods .goods_textwrap ul li, #ingredient_westseamud .content_of_goods .goods_textwrap ul li{
+    width: 300px;
+}
+/* --------------------------  ingredient --------------------------  */
+
+/* -------------------------- design story -------------------------- */
+#designstory_contents #designstory_content_line_1{
+    padding: 0 4.5rem 6rem 4.5rem;
+}
+#designstory_contents #designstory_content_line_2{
+    padding: 0 4.5rem;
+}
+/* -------------------------- design story -------------------------- */
+
+/* -------------------------- product list -------------------------- */
+#productlist_wrap #productlist_basics{
+    padding: 4rem 4.5rem 6rem 4.5rem;
+}
+
+/* -------------------------- product list -------------------------- */
+
+/* -------------------------- whatsnew -------------------------- */
+.newproduct_cover .newproduct_cover_textbox{
+    padding-left: 4rem;
+}
+.newproduct_explanation .newproduct_textbox .newproduct_textbox_inner{
+    padding: 4rem;
+}
+/* -------------------------- whatsnew -------------------------- */
+
+/* -------------------------- product details -------------------------- */
+#product_details_info #product_title_wrap #product_title_wrap_padding{
+    padding: 0 4rem;
+}
+#product_explanation_wrap{
+    padding-right: 4rem;
+}
+#product_sub_info{
+    padding: 0 4rem;
+}
+
+/* -------------------------- product details -------------------------- */

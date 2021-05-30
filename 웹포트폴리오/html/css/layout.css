@@ -1,0 +1,448 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/css?family=Do+Hyeon&amp;subset=korean);
+
+@-ms-viewport{width:device-width;}
+@-o-viewport{width:device-width;}
+@-moz-viewport{width:device-width;}
+@-webkit-viewport{width:device-width;}
+@viewport{width:device-width;}
+@font-face{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body { background:#fff;font-family:"gulim", sans-serif;font-size:12px;color:#5b5b5b;line-height:100%;font-weight:normal;padding:0px;margin:0px;letter-spacing:-0px; }
+html, body { width:100%;height:100%;letter-spacing:0px; }
+div, p, ul, li, table, th, td, textarea, input, span, form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, sup {padding:0px;margin:0px;}
+ul, ol, dl, dd, dt, li { list-style-type:none;margin:0;padding:0px;line-height:100%;font-size:12px;color:#5b5b5b;letter-spacing:0px; }
+form, fieldset, p {margin:0;padding:0;border:0;}
+img {border:0;vertical-align:middle;outline:none;}
+
+a,a:link,a:visited,a:active{color:#575757;letter-spacing:normal;text-decoration:none;letter-spacing:-0.8px;}
+a:hover{color:#575757;text-decoration:none;}
+button{background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer}
+
+.clearfix::after{content:""; display:block; clear:both;}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+body{
+    font-size: 1rem;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+}
+#header_wrap{
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    /* 30px 40px 30px 40px; */
+}
+header #menubtn_box{
+    padding: 1rem 0 1rem 0.5rem;
+    /* 20px 0 20px 10px; */
+    float: right;
+    position: relative;
+}
+header #menubtn_box > span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -60px;
+    z-index: 9999;
+}
+header #menubtn_box input[id="menu_btn"]{
+    display: none;
+}
+header #menubtn_box input[id="menu_btn"] + label{
+    display: block;
+    width: 20px;
+    height: 16px;
+    position: relative;
+    cursor: pointer;
+    z-index: 100;
+}
+header #menubtn_box input[id="menu_btn"] + label span{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: all .35s;
+}
+header #menubtn_box input[id="menu_btn"] + label span:nth-child(1){
+    top: 0;
+}
+header #menubtn_box input[id="menu_btn"] + label span:nth-child(2){
+    top: 50%;
+    transform: translateY(-50%);
+}
+header #menubtn_box input[id="menu_btn"] + label span:nth-child(3){
+    bottom: 0;
+}
+header #menubtn_box input[id="menu_btn"]:checked + label span:nth-child(1){
+    top:50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+header #menubtn_box input[id="menu_btn"]:checked + label span:nth-child(2){
+    opacity: 0;
+}
+header #menubtn_box input[id="menu_btn"]:checked + label span:nth-child(3){
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+}
+/* menu_box */
+header #menu_box{
+    height: calc(100vh);
+    width: 26.6rem;
+    /* 532px; */
+    background-color: #fff;
+    position: fixed;
+    right: -26.6rem;
+    /* -532px; */
+    top: 0;
+    transition: all .35s;
+    z-index: 90;
+}
+header #menubtn_box input[id="menu_btn"]:checked + label + #menu_box{
+    right:0;
+}
+header #menu_box #profile_img{
+    height: calc(65vh);
+    background:url("../img/chansik.jpeg") no-repeat center;
+    background-size: cover;
+}
+header #menu_box #profile_text{
+    height:calc(35vh);
+    position: relative;
+}
+header #menu_box #profile_text #profile_text_wrap{
+    display: inline-block;
+    position: absolute;
+    width: 68%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header #menu_box #profile_text #profile_text_wrap p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    /* 20px; */
+    color: #000;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+    /* 30px; */
+    line-height: 1rem;
+    /* 20px; */
+    text-align: center;
+}
+header #menu_box #profile_text #profile_text_wrap p span{
+    font-weight: 700;
+}
+header #menu_box #profile_text #profile_text_wrap #my_profile{
+    margin-left: 2px;
+}
+header #menu_box #profile_text #profile_text_wrap #my_profile ul{
+    display: inline-block;
+}
+header #menu_box #profile_text #profile_text_wrap #my_profile ul#Q{
+    margin-right: 4rem;
+    /* 80px; */
+    position: relative;
+}
+header #menu_box #profile_text #profile_text_wrap #my_profile ul#Q::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: -2rem;
+    /* -40px; */
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: black;
+}
+header #menu_box #profile_text #profile_text_wrap #my_profile ul#Q li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-size: 0.75rem;
+    /* 15px; */
+    line-height: 1.741rem;
+    /* 34.82px; */
+    text-transform: uppercase;
+}
+header #menu_box #profile_text #profile_text_wrap #my_profile ul#A li,
+header #menu_box #profile_text #profile_text_wrap #my_profile ul#A li a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 0.75rem;
+    /* 15px; */
+    line-height: 1.741rem;
+    /* 34.82px; */
+}
+header #menu_box #profile_text #profile_text_wrap #my_profile ul#A li a{
+    text-decoration: underline;
+}
+.section{
+    position: relative;
+    overflow: hidden;
+}
+#self_introduction_textbox,
+.content_titlebox{
+    position: absolute;
+    top: 50%;
+    padding-left: 10.4rem;
+    /* 208px; */
+    transform:translateY(-50%)
+}
+#self_introduction_textbox p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.2rem;
+    /* 24px; */
+    line-height: 1rem;
+    /* 20px; */
+    padding-bottom: 1rem;
+    /* 20px; */
+}
+#self_introduction_textbox h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 3rem;
+    /* 60px; */
+    line-height: 3.9rem;
+    /* 78px; */
+    width: 32.5rem;
+    /* 650px; */
+    padding-bottom: 2.5rem;
+    /* 50px; */
+}
+a.golink{
+    width: 8.5rem;
+    /* 170px; */
+    height: 2.5rem;
+    /* 45px; */
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    /* 15px; */
+    padding: 0.75rem 2.6rem 0.75rem 1rem;
+    /* 15px 52px 15px 20px; */
+    position: relative;
+    transition: all .35s;
+}
+a.link_white{
+    border: 1px solid #fff;
+    color: #fff;
+}
+a.link_black{
+    border: 1px solid #333333;
+    color: #333333;
+}
+a.golink::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0.5rem;
+    /* 10px; */
+    height: 0.6rem;
+    /* 12px; */
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin-right: 15px;
+}
+a.link_white::after{
+    background: url("../img/viewmorebtn_white.png") no-repeat center;
+    background-size: 100%;
+}
+a.link_black::after{
+    background: url("../img/viewmorebtn_black.png") no-repeat center;
+    background-size: 100%;
+}
+a.link_white:hover{
+    background: #fff;
+    color:#151513;
+}
+a.link_black:hover{
+    background: #151513;
+    color:#fff;
+}
+a.link_white:hover::after{
+    background: url("../img/viewmorebtn_black.png") no-repeat center;
+    background-size: 100%;
+}
+a.link_black:hover::after{
+    background: url("../img/viewmorebtn_white.png") no-repeat center;
+    background-size: 100%;
+}
+.content_titlebox h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    /* 60px; */
+    line-height: 3.9rem;
+    /* 78px; */
+    width: 32.5rem;
+    /* 650px; */
+    padding-bottom: 2.5rem;
+    /* 50px; */
+    letter-spacing: 0.3rem;
+    /* 6px; */
+    text-transform: uppercase;
+}
+.lirikos .content_titlebox h1,
+.kakaoi .content_titlebox h1{
+    color: #333333;
+}
+.lirikos .content_titlebox h1 span,
+.kakaoi .content_titlebox h1 span{
+    color: #737373;
+}
+.kia .content_titlebox h1{
+    color: #fff;
+}
+#seungleeyouth_bg{
+    width: 100%;
+    height: calc(100vh);
+    background: url("../img/chanchanPortfolio_poster_5.png")no-repeat center;
+    background-size: cover;
+}
+.addexplanation{
+    padding-bottom: 3.75rem;
+    /* 75px; */
+}
+.content_titlebox .addexplanation_1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 1.35rem;
+    /* 27px; */
+    line-height: 1rem;
+    /* 20px; */
+    color: #737373;
+    display: inline-block;
+    padding-right: 2.5rem;
+    /* 50px; */
+}
+.kia .content_titlebox .addexplanation_1{
+    color: #fff;
+}
+.seungleeyouth .content_titlebox h1{
+    color: #fff;
+}
+.seungleeyouth .content_titlebox .addexplanation .addexplanation_1{
+    color: #fff;
+}
+.seungleeyouth .content_titlebox .addexplanation .addexplanation_2{
+    color: #fff;
+}
+.content_titlebox .addexplanation_2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.35rem;
+    /* 27px; */
+    line-height: 1rem;
+    /* 20px; */
+    color: #333333;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+}
+.kia .content_titlebox .addexplanation_2{
+    color: #fff;
+}
+#fp-nav ul li a span::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -6rem;
+    /* -120px; */
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.6rem;
+    /* 12px; */
+    color: #fff;
+    width: 5rem;
+    /* 100px; */
+    text-transform: uppercase;
+}
+#fp-nav ul li:nth-child(1) a.active span::after{
+    content: "Introduction";
+}
+#fp-nav ul li:nth-child(2) a.active span::after{
+    content: "lirikosmarine";
+}
+#fp-nav ul li:nth-child(3) a.active span::after{
+    content: "kakaoAi";
+}
+#fp-nav ul li:nth-child(4) a.active span::after{
+    content: "worldwideKia";
+}
+#fp-nav ul li:nth-child(5) a.active span::after{
+    content: "SeungleeYouth";
+}
+#fp-nav ul li:nth-child(6) a.active span::after{
+    content: "My Information";
+}
+#footer_wrap{
+    padding: 3rem 2rem;
+    /* 60px 40px 60px 40px; */
+    background-color: #020002;
+}
+#footer_wrap #footer_logo{
+    width: 8.2rem;
+    /* 164px; */
+    height: 1.2rem;
+    /* 24px; */
+    padding: 1rem 1.5rem 2rem 0;
+    /* 20px 30px 60px 0; */
+    display: inline-block;
+}
+#footer_wrap #footer_logo img{
+    width: 100%;
+}
+#footer_wrap #footer_information{
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+#footer_wrap #footer_information a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.65rem;
+    /* 13px; */
+    color: #fff;
+    padding: 1rem 0.5rem;
+    /* 20px 10px; */
+}
+.self_introduction{
+    background: url("../img/self_introduction.gif")no-repeat center;
+    background-size: cover;
+}
+.lirikos{
+    background: url("../img/lirikos.gif")no-repeat center;
+    background-size: cover;
+}
+.kakaoi{
+    background: url("../img/kakaoi.gif")no-repeat center;
+    background-size: cover;
+}
+.kia{
+    background: url("../img/kia.gif")no-repeat center;
+    background-size: cover;
+}

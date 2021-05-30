@@ -1,0 +1,48 @@
+html{font-size: 20px;}
+body{font-size: 1rem;}
+
+/* header */
+
+/* header */
+
+/* ----------------------------- main ----------------------------- */
+
+/* main_visual */
+
+/* main_visual */
+
+/* main_sermontoday */
+
+/* main_sermontoday */
+
+/* main_church */
+#main_church{
+    height: auto
+}
+#main_church #church_contents{
+    padding: 4rem 4rem 6rem 4rem;
+    /* 80px; */
+}
+#main_church #church_contents ul{
+    width: 100%;
+}
+#main_church #church_contents ul li{
+    width: 23.5%;
+    margin-left: 2%;
+}
+/* main_church */
+
+/* main_community */
+#main_community{
+    padding: 6rem 4rem;
+}
+/* main_community */
+
+
+/* ----------------------------- main ----------------------------- */
+
+/* footer */
+footer{
+    padding: 2.5rem 4rem;
+}
+/* footer */

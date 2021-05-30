@@ -1,0 +1,128 @@
+html{font-size: 20px;}
+body{font-size: 1rem;}
+
+/* header */
+
+/* header */
+
+/* ---------------------------------- mainpage ---------------------------------- */
+
+/* main_visual */
+#visual_productexplanation{
+    margin-left: 4.5rem;
+}
+/* main_visual */
+
+
+/* main_introductions */
+#main_introductions #introductions_contentbox #introductions_titlebox{
+    padding-left: 4.5rem;
+}
+#main_introductions #introductions_movetext p{
+    font-size: 6.5rem;
+}
+/* main_introductions */
+
+
+/* main_partner */
+#main_partner{
+    padding: 22.5rem 4.5rem 0 4.5rem;
+}
+#partner_contentbox .slick-prev{
+    left: -3rem;
+}
+#partner_contentbox .slick-next{
+    right: -3rem;
+}
+
+/* main_partner */
+
+
+/* main_service */
+#main_service{
+    padding: 0 4.5rem;
+}
+#service_contentbox #service_textbox{
+    padding: 3rem 0 0 0;
+}
+
+/* main_service */
+
+
+
+/* ---------------------------------- mainpage ---------------------------------- */
+
+/* ---------------------------------- introduction ---------------------------------- */
+/* section title */
+
+/* section title */
+
+/* content */
+#introduction_contents{
+    padding: 3rem 4.5rem 7.5rem 4.5rem;
+}
+#introduction_contents #content_titlebox h2{
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+}
+/* content */
+
+/* next */
+.nextcontentline_1 .nextcontent_1 .nextcontent_1_textbox{
+    padding: 0 0 2.5rem 4.5rem;
+}
+.nextcontentline_2{
+    padding: 0 4.5rem;
+}
+/* next */
+/* ---------------------------------- introduction ---------------------------------- */
+
+/* ---------------------------------- partner ---------------------------------- */
+/* section title */
+
+/* section title */
+
+/* content */
+#partner_contents{
+    padding: 3rem 4.5rem 7.5rem 4.5rem;
+}
+#partner_contents #content_titlebox h2{
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+}
+/* content */
+
+/* next */
+
+/* next */
+/* ---------------------------------- partner ---------------------------------- */
+
+
+/* ---------------------------------- service ---------------------------------- */
+/* section title */
+
+/* section title */
+
+/* content */
+#service_contents #content_titlebox h2{
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+}
+#service_contents{
+    padding: 3rem 4.5rem 7.5rem 4.5rem;
+}
+/* content */
+
+/* next */
+
+/* next */
+
+/* ---------------------------------- service ---------------------------------- */
+
+
+
+/* footer */
+footer{
+    padding: 3rem 4.5rem;
+}
+/* footer */

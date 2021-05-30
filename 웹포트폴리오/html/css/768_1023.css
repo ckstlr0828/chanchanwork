@@ -1,0 +1,23 @@
+html{font-size: 16px;}
+body{font-size: 1rem;}
+
+/* 타이틀 박스 */
+#self_introduction_textbox, .content_titlebox{
+    padding-left: 5rem;
+    /* 80px */
+}
+/* 타이틀 박스 */
+
+/* 우측 nav */
+#fp-nav ul li a span::after{
+    font-size: 0.75rem;
+    /* 12px; */
+}
+/* 우측 nav */
+
+/* footer */
+#footer_wrap #footer_information a{
+    font-size: 0.8125rem;
+    /* 13px; */
+}
+/* footer */

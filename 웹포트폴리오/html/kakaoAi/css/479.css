@@ -1,0 +1,364 @@
+html{font-size: 16px;}
+body{font-size: 1rem;}
+
+/* header */
+header > nav{
+    display: none;
+}
+
+header > #addnav{
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin: 1.5rem 0 1.5rem 0;
+    cursor: pointer;
+    background: url("../img/add.svg")no-repeat center;
+    background-size: 80%;
+}
+/* header */
+
+/* ---------------------------------- mainpage ---------------------------------- */
+
+/* main_visual */
+#main_visual #visual_bg{
+    display: none;
+}
+#main_visual #visual_bg #view_producttextbox{
+    width: auto;
+}
+#main_visual #visual_bg #view_producttextbox a{
+    font-size: 1.8rem;
+}
+#visual_productexplanation{
+    padding: 0;
+    margin: 0 2rem 2rem 2rem;
+    width: auto;
+    top: 95%;
+    transform: translateY(-100%);
+}
+#visual_productexplanation ul li .product_textbox{
+    padding-bottom: 2rem;
+}
+#visual_productexplanation ul li .product_textbox p{
+    width: auto;
+    padding-bottom: 0;
+}
+#visual_productexplanation #visual_indicator{
+    padding-top: 1rem;
+}
+#mainproduct_for{
+    width: calc(50%);
+    top: 30%;
+    left: 50%;
+}
+#mainproduct_nav{
+    display: none;
+}
+/* main_visual */
+
+/* main_introductions */
+#main_introductions #introductions_contentbox #introductions_titlebox{
+    padding-left: 2rem;
+    width: 80%;
+}
+#main_introductions #introductions_contentbox #introductions_titlebox p{
+    width: auto;
+}
+#main_introductions #introductions_movetext p{
+    font-size: 4.5rem;
+}
+/* main_introductions */
+
+
+/* main_partner */
+#main_partner{
+    padding: 22.5rem 2rem 0 2rem;
+}
+#partner_contentbox .slick-prev{
+    left: 0%;
+    top: 100%;
+    margin-top: 3.15rem;
+}
+#partner_contentbox .slick-next{
+    right: 0%;
+    top: 100%;
+    margin-top: 3.15rem;
+}
+/* main_partner */
+
+
+/* main_service */
+#main_service{
+    padding: 0 2rem;
+}
+#main_service::after{
+    height: 20rem;
+}
+#service_contentbox #service_textbox{
+    padding: 3rem 0 0 0;
+}
+#service_intro{
+    width: 90%;
+}
+#service_intro p{
+    padding: 0 2rem 4rem 2rem;
+    font-size: 1.8rem;
+}
+#service_imgbox{
+    display: none;
+}
+#service_contentbox{
+    height: auto;
+}
+#service_contentbox #service_textbox > p{
+    width: 100%;
+}
+/* main_service */
+
+/* ---------------------------------- mainpage ---------------------------------- */
+
+
+/* ---------------------------------- introduction ---------------------------------- */
+/* section title */
+.visual_explanation .visual_explanation_textbox{
+    padding: 3rem 2rem;
+    width: auto;
+}
+.visual_header h1{
+    font-size: 2rem;
+}
+#introduction_visual{
+    width: 100%;
+}
+.visual_explanation .visual_explanation_textbox h2{
+    line-height: 1.8rem;
+}
+/* section title */
+
+/* content */
+#introduction_contents{
+    padding: 3rem 2rem 7.5rem 2rem;
+}
+#introduction_contents #content_titlebox h2{
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-left: 0; 
+    width: 233px;
+}
+#introduction_contents #content_titlebox h2::after{
+    left: 100%;
+    width: 2rem;
+    height: 2rem;
+    bottom: -2rem
+}
+#content_1 .content_box{
+    margin-left: 0;
+    width: 100%;
+}
+#content_2 .content_box{
+    margin-right: 0;
+    width: 100%;
+}
+#content_3 .content_box{
+    margin-left: 0;
+    width: 100%;
+}
+.content_box .content_imgbox{
+    float: none;
+    width: 100%;
+}
+.content_box .content_titlebox{
+    margin-left:0;
+    display: block;
+    position: static;
+    top: 0;
+    transform: translateY(0%);
+    width: 100%;
+    margin-top: 2rem;
+}
+/* content */
+
+/* next */
+.nextcontentline_1 .nextcontent_1 .nextcontent_1_textbox{
+    padding: 0 2rem 2.5rem 2rem;
+    width: auto;
+}
+.nextcontentline_2{
+    padding: 0 2rem;
+}
+.nextcontentline_1 .nextcontent_1{
+    width: 85%;
+}
+.nextcontentline_2 .nextcontent_2_textbox > h2{
+    font-size: 1.6rem;
+}
+.nextcontentline_1 .nextcontent_1 .nextcontent_1_textbox h2{
+    font-size: 2.25rem;
+    line-height: 2.341rem;
+}
+.nextcontentline_1 .nextcontent_1{
+    width: 100%;
+}
+.nextcontentline_2 .nextcontent_2_textbox{
+    position: static;
+    width: 100%;
+    display: block;
+    transform: translateY(0%);
+}
+.nextcontentline_1{
+    margin-bottom: 4rem;
+}
+.nextcontentline_2 .nextcontent_imgbox{
+    width: 100%;
+    margin-top: 6rem;
+    height: 17.9rem;
+}
+.nextcontentline_2::after{
+    height: 24rem;
+}
+/* next */
+/* ---------------------------------- introduction ---------------------------------- */
+
+
+/* ---------------------------------- partner ---------------------------------- */
+/* section title */
+.visual_explanation .visual_explanation_textbox h2{
+    line-height: 1.8rem;
+}
+/* section title */
+
+/* content */
+#partner_contents #content_titlebox h2{
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-left: 0;
+    width: 171px;
+}
+#partner_contents{
+    padding: 3rem 2rem 7.5rem 2rem;
+}
+
+#partner_contents #content_list ul li{
+    width: 48%;
+    margin-left: 4%;
+    float: left;
+}
+#partner_contents #content_list ul li:nth-child(3n+1){
+    margin-left: 4%;
+}
+#partner_contents #content_list ul li:nth-child(2n+1){
+    margin-left: 0;
+}
+#partner_contents #content_list ul li:nth-child(4),
+#partner_contents #content_list ul li:nth-child(5),
+#partner_contents #content_list ul li:nth-child(6){
+    margin-top: 0;
+    /* 80px; */
+}
+#partner_contents #content_list ul li:nth-child(3),
+#partner_contents #content_list ul li:nth-child(4),
+#partner_contents #content_list ul li:nth-child(5),
+#partner_contents #content_list ul li:nth-child(6){
+    margin-top: 4rem;
+    /* 80px; */
+}
+.content_textbox{
+    height: 9rem;
+    /* 144px; */
+}
+/* content */
+
+/* next */
+
+/* next */
+/* ---------------------------------- partner ---------------------------------- */
+
+
+
+/* ---------------------------------- service ---------------------------------- */
+/* section title */
+
+/* section title */
+
+/* content */
+#service_contents #content_titlebox h2{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+#service_contents{
+    padding: 3rem 2rem 7.5rem 2rem;
+}
+#service_contents #content_list ul li{
+    width: 48%;
+    margin-left: 4%;
+    float: left;
+}
+#service_contents #content_list ul li:nth-child(4n+1){
+    margin-left: 4%;
+}
+#service_contents #content_list ul li:nth-child(2n+1){
+    margin-left: 0;
+}
+#service_contents #content_list ul li:nth-child(5),
+#service_contents #content_list ul li:nth-child(6),
+#service_contents #content_list ul li:nth-child(7),
+#service_contents #content_list ul li:nth-child(8){
+    margin-top: 0;
+    /* 80px; */
+}
+#service_contents #content_list ul li:nth-child(3),
+#service_contents #content_list ul li:nth-child(4),
+#service_contents #content_list ul li:nth-child(5),
+#service_contents #content_list ul li:nth-child(6),
+#service_contents #content_list ul li:nth-child(7),
+#service_contents #content_list ul li:nth-child(8){
+    margin-top: 4rem;
+    /* 80px; */
+}
+.content_textbox{
+    height: 6rem;
+}
+/* content */
+
+/* next */
+
+/* next */
+
+/* ---------------------------------- service ---------------------------------- */
+
+/* footer */
+footer{
+    padding: 3rem 2rem;
+    position: relative;
+}
+#footer_navbox2{
+    display: none;
+}
+#footer_navbox1{
+    top: 0;
+}
+#footerlogo{
+    display: block;
+    margin-right: 0;
+    margin-bottom: 1rem;
+}
+#navbox1_line1 ul li{
+    display: block;
+}
+#navbox1_line1 ul{
+    margin-left: -0.5rem;
+}
+#footerlogo::after{
+    display: none;
+}
+#navbox1_line1 ul li a{
+    line-height: 1.2rem;
+}
+#footer_topbtn{
+    float: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 3rem 2rem 0 0;
+}
+/* footer */

@@ -1,0 +1,87 @@
+html{font-size: 16px;}
+body{font-size: 1rem;}
+
+#self_introduction_textbox, .content_titlebox{
+    padding-left: 0;
+    /* 40px */
+}
+#footer_wrap #footer_logo{
+    padding-bottom: 1rem;
+}
+#footer_wrap #footer_information a{
+    font-size: 0.6rem;
+    /* 13px; */
+    padding-left: 0;
+}
+#fp-nav ul li a span::after{
+    font-size: 0.75rem;
+    /* 12px; */
+}
+/* ------------------------------------------------------ */
+#self_introduction_textbox, .content_titlebox{
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#self_introduction_textbox p{
+    font-size: 0.85rem;
+}
+#self_introduction_textbox h1{
+    font-size: 1.5rem;
+    width: 17rem;
+    line-height: 2rem;
+}
+.content_titlebox h1{
+    font-size: 2rem;
+    /* 40px */
+    line-height: 2rem;
+    /* 40px; */
+    width: 17rem;
+    letter-spacing: 0;
+    padding-bottom: 1.5rem;
+}
+.content_titlebox .addexplanation_1{
+    padding-right: 0;
+}
+.content_titlebox .addexplanation_1,
+.content_titlebox .addexplanation_2{
+    display: block;
+    font-size: 1rem;
+}
+.content_titlebox .addexplanation_2{
+    padding-top: 0.5rem;
+}
+header #menu_box{
+    width: 100%;
+    right: -100%;
+}
+header #menu_box #profile_text #profile_text_wrap{
+    width: 200px;
+    top: 28%;
+}
+header #menu_box #profile_text #profile_text_wrap #my_profile ul#Q{
+    display: none;
+}
+header #menu_box #profile_text #profile_text_wrap #my_profile{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 125px;
+    top: 100%;
+}
+header #menu_box #profile_text #profile_text_wrap #my_profile ul#A{
+    text-align: center;
+}
+header #menu_box #profile_text #profile_text_wrap p{
+    width: 100%;
+    display: inline-block;
+    line-height: 1.25rem;
+}
+header #menu_box #profile_text #profile_text_wrap #my_profile ul#A li,
+header #menu_box #profile_text #profile_text_wrap #my_profile ul#A li a{
+    line-height: 1.4rem;
+}
+#fp-nav{
+    display: none;
+}
