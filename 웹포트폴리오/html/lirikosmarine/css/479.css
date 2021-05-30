@@ -492,6 +492,7 @@ body{
     transform: translate(0, 0);
     width: 100%;
     padding-bottom: 140%;
+    height: 0;
 }
 #product_details_info #product_bg_r,
 #product_details_info #product_bg_l{

@@ -3,7 +3,8 @@
     margin-top: 4rem;
     /* 80px; */
     position: fixed;
-    bottom: 6.35rem;
+    /* bottom: 6.35rem; */
+    top: 6rem;
 }
 #product_details_info #product_title_wrap #product_title_wrap_padding{
     padding: 0 4.5rem;
@@ -86,9 +87,10 @@
     /* 20px; */
 }
 #product_details_info #product_title_wrap #product_img{
-    width: 28%;
-    height: 0;
-    padding-bottom: 40%;
+    /* width: 28%; */
+    width: 380px;
+    height: 530px;
+    /* padding-bottom: 40%; */
     position: absolute;
     left: 47%;
     transform: translate(-50%, -50%);

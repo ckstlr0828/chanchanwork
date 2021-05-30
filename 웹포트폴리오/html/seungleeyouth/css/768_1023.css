@@ -10,13 +10,14 @@ header #logo{
     height: 1.65rem;
 }
 header nav{
-    width: 20.7rem;
+    width: 21rem;
     /* 414px; */
     padding: 0.45rem;
     left: 53%;
 }
 header nav > ul > li > a{
     font-size: 0.65rem;
+    padding: 0.75rem;
 }
 /* header */
 

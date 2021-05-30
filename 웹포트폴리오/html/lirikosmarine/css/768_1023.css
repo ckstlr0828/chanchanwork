@@ -272,4 +272,8 @@ header #search_btn span{
 #product_details_info #product_title_wrap{
     bottom: 7.35rem;
 }
+#product_details_info #product_title_wrap #product_img{
+    width: 250px;
+    height: 400px;
+}
 /* -------------------------- product details -------------------------- */

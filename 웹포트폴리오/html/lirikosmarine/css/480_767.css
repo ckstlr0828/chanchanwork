@@ -401,6 +401,7 @@ body{
 /* -------------------------- product details -------------------------- */
 #product_details_info #product_title_wrap #product_title_wrap_padding{
     padding: 0 2rem;
+    margin-bottom: 2rem;
 }
 #product_explanation_wrap{
     padding:0 2rem;
@@ -428,7 +429,7 @@ body{
     position: relative;
     margin-top: 0;
     bottom: -1.65rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 #product_details_info #product_title_wrap #product_img{
     position: static;
@@ -438,6 +439,7 @@ body{
     transform: translate(0, 0);
     width: 50%;
     padding-bottom: 75%;
+    height: 0;
 }
 #product_details_info #product_bg_r,
 #product_details_info #product_bg_l{
