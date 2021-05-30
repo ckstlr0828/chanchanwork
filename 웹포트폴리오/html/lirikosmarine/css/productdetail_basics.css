@@ -308,8 +308,7 @@ h2.explanation_title::after{
     height: 0;
     padding-bottom: 40%;
     position: absolute;
-    bottom: 10%;
-    /* 950px; */
+    top: 40%;
     left: 0;
     z-index: -20;
     border-radius: 0 100% 100% 0;
