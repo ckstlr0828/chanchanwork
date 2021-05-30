@@ -36,6 +36,7 @@ body{
 }
 #wrap{
     position: static;
+    width: 100%;
 }
 #header_wrap{
     position: fixed;
