@@ -20,3 +20,29 @@
 #productlist_wrap #productlist_basics ul li:nth-child(4){
     margin-top: 0;
 }
+
+/* ---------------------------- */
+#designstory_contents #designstory_content_line_1 #content_1 #content_1_img,
+#designstory_contents #designstory_content_line_1 #content_2 #content_2_img,
+#designstory_contents #designstory_content_line_2 #content_3_img,
+#designstory_contents #designstory_content_line_2 #content_4 #content_4_img{
+    height: 22rem;
+}
+/* ---------------------------- */
+.content_of_goods .goods_productwrap{
+    width: 70%;
+}
+/* ---------------------------- */
+#brandstory_contents #brandstory_content_1 #content_1_textbox{
+    width: 36.5rem;
+}
+#brandstory_contents #brandstory_content_1 #content_1_textbox #content_1_textbox_inner h3{
+    font-size: 1.2rem;
+}
+#brandstory_contents #brandstory_content_1 #content_1_textbox #content_1_textbox_inner p{
+    font-size: 0.65rem;
+    line-height: 1rem;
+}
+#brandstory_contents #brandstory_content_1 #content_1_img{
+    margin-right: 12.5rem;
+}
