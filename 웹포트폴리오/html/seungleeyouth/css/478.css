@@ -141,3 +141,43 @@ footer #footer_text #footer_nav ul li a{
     display: block;
 }
 /* footer */
+
+/* ------------------------ 2021.06.02 새로 추가된 곳 ------------------------ */
+.worship_visual_main p{
+    padding: 0 0 4rem 2rem;
+}
+.worship_video_area{
+    padding: 6rem 2rem 0 2rem;
+}
+
+.worship_video_listwrap .worship_video_list > ul li{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 8%;
+    height: 18rem;
+}
+.worship_video_listwrap .worship_video_list > ul li:nth-child(2),
+.worship_video_listwrap .worship_video_list > ul li:nth-child(3),
+.worship_video_listwrap .worship_video_list > ul li:nth-child(4){
+    margin-top: 8%;
+}
+.worship_video_listwrap .worship_video_list > ul li:nth-child(2n+1){
+    margin-left: 0;
+}
+.worship_video_listwrap .worship_video_list > ul li .list_video{
+    height: 9.6rem;
+}
+.worship_video_list_nav > ul{
+    width: 60%;
+}
+.worship_video_list_nav > ul li{
+
+    margin-bottom: 0.3rem;
+}
+.worship_video_list_nav > ul li:first-child, .worship_video_list_nav > ul li:last-child{
+    top: 0.5rem;
+}
+.next_generation_info{
+    padding: 6rem 2rem 0 2rem;
+}
+/* ------------------------ 2021.06.02 새로 추가된 곳 ------------------------ */

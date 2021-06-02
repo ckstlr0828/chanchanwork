@@ -72,3 +72,15 @@ footer #footer_text #footer_info{
     padding-bottom: 0;
 }
 /* footer */
+
+/* ------------------------ 2021.06.02 새로 추가된 곳 ------------------------ */
+.worship_visual_main p{
+    padding: 0 0 4rem 2rem;
+}
+.worship_video_area{
+    padding: 6rem 2rem 0 2rem;
+}
+.next_generation_info{
+    padding: 6rem 2rem 0 2rem;
+}
+/* ------------------------ 2021.06.02 새로 추가된 곳 ------------------------ */
