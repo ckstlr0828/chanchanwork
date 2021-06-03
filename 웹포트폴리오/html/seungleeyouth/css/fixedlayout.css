@@ -410,21 +410,14 @@ footer #footer_text p#footer_copy{
     font-size: 2rem;
 }
 .worship_visual_nav{
-    position: relative;
     width: 100%;
-    height: 3.75rem;
-    /* 75px; */
     border-bottom: 1px solid #b3b3b3;
 }
 .worship_visual_nav ul{
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 50%;
+    padding: 0 7rem;
 }
 .worship_visual_nav ul li{
-    display: inline-block;
+    float: left;
     position: relative;
 }
 .worship_visual_nav ul li::after{
