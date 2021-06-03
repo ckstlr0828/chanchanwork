@@ -728,5 +728,9 @@ footer #footer_text p#footer_copy{
     padding-bottom: 1rem;
     /* 20px; */
 }
+#youth_worship_visual .worship_visual_main{
+    background: url("../img/main_visual.png") no-repeat center;
+    background-size: cover;
+}
 /* 예배 영상 공통 css */
 /* ------------------------ 2021.06.02 새로 추가된 곳 ------------------------ */

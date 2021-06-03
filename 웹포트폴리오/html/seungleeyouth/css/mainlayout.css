@@ -408,3 +408,33 @@
 #main_community .golink_btn{
     text-align: center;
 }
+
+/* -------------------------------- 2021.06.03 추가 -------------------------------- */
+#visual_titlebox_modifiy{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#visual_titlebox_modifiy input{
+    width: 100%;
+    text-align: center;
+}
+.main_modifications{
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1rem;
+}
+.main_modifications button#modify,
+.main_modifications button#delete{
+    color: #fff;
+    border: 1px solid #fff;
+}
+.main_modifications button#modify:hover,
+.main_modifications button#delete:hover{
+    color: #000;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+/* -------------------------------- 2021.06.03 추가 -------------------------------- */
