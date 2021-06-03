@@ -168,7 +168,7 @@ footer #footer_text #footer_nav ul li a{
     height: 9.6rem;
 }
 .worship_video_list_nav > ul{
-    width: 60%;
+    width: 70%;
 }
 .worship_video_list_nav > ul li{
 
@@ -191,5 +191,8 @@ footer #footer_text #footer_nav ul li a{
 }
 .writingArea_wrap{
     padding: 4rem 2rem;
+}
+.community_search_wrap::after{
+    top: 4rem;
 }
 /* ------------------------ 2021.06.03 새로 추가된 곳 - 2 ------------------------ */
