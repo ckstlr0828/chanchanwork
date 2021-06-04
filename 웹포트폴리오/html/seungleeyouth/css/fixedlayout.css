@@ -929,3 +929,60 @@ footer #footer_text p#footer_copy{
     margin-bottom: 4rem;
 }
 /* ------------------------ 2021.06.03 새로 추가된 곳 ------------------------ */
+
+/* ------------------------ 2021.06.04 새로 추가된 곳 ------------------------ */
+.videoUploadArea_wrap,
+.modifyNextGenerationInformation_wrap{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/main_visual.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.videoUploadArea_wrap .videoUploadArea,
+.modifyNextGenerationInformation_wrap .modifyNextGenerationInformationArea{
+    width: 25rem;
+    /* 500px; */
+    height: 25rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    /* 10px; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.modifyNextGenerationInformation_wrap .modifyNextGenerationInformationArea{
+    height: 100vh;
+}
+.videoUploadArea_wrap .videoUploadArea .videoUploadArea_inner,
+.modifyNextGenerationInformation_wrap .modifyNextGenerationInformationArea .modifyNextGenerationInformationArea_inner{
+    padding: 2rem;
+    /* 40px; */
+}
+.videoUploadArea_wrap .videoUploadArea label,
+.modifyNextGenerationInformation_wrap .modifyNextGenerationInformationArea label{
+    display: block;
+    padding: 0.5rem 0;
+    /* 10px 0; */
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    color: #000;
+}
+.videoUploadArea_wrap .videoUploadArea label input,
+.modifyNextGenerationInformation_wrap .modifyNextGenerationInformationArea label input,
+.modifyNextGenerationInformation_wrap .modifyNextGenerationInformationArea label select{
+    width: 100%;
+    margin-top: 0.5rem;
+    /* 10px; */
+    padding: 0.25rem 0;
+    /* 5px 0; */
+}
+#videoUpload_registrationBtn,
+#modifyNextGenerationInformation_registrationBtn{
+    margin-top: 1.5rem;
+    /* 30px; */
+}
+/* ------------------------ 2021.06.04 새로 추가된 곳 ------------------------ */

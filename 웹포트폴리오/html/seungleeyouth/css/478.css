@@ -196,3 +196,12 @@ footer #footer_text #footer_nav ul li a{
     top: 4rem;
 }
 /* ------------------------ 2021.06.03 새로 추가된 곳 - 2 ------------------------ */
+
+
+/* ------------------------ 2021.06.04 새로 추가된 곳 ------------------------ */
+.videoUploadArea_wrap .videoUploadArea,
+.modifyNextGenerationInformation_wrap .modifyNextGenerationInformationArea{
+    width: 100%;
+}
+
+/* ------------------------ 2021.06.04 새로 추가된 곳 ------------------------ */

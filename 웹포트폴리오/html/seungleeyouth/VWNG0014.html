@@ -7,6 +7,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
     <title>seungleeyouth</title>
     <link href="css/fixedlayout.css" rel="stylesheet" type="text/css" />
+    <link href="css/mainlayout.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/1024_1280.css" type="text/css" media="screen and (min-width:1024px) and (max-width:1280px)"/>
     <link rel="stylesheet" href="css/768_1023.css" type="text/css" media="screen and (min-width:768px) and (max-width:1023px)"/>
     <link rel="stylesheet" href="css/480_767.css" type="text/css" media="screen and (min-width:480px) and (max-width:767px)"/>
@@ -18,27 +19,26 @@
 </head>
 <body>
     <div id="wrap">
-        <div class="writingArea_wrap">
-            <div class="community_list_title" id="writingArea_title">
-                <p>커뮤니티</p>
-                <h2>게시글 등록&수정</h2>
-            </div>
-            <div class="writingArea_titleAndWriter">
-                <input type="text" name="postTitle" id="postTitle">
-                <p>작성자 : <span id="postWriter">현종필 목사</span></p>
-            </div>
-            <div class="view_details_content_info" id="writingArea_info">
-                <p>조회수 : <span>10000</span></p>
-                <p>작성일시 : <span>2021.06.01</span></p>
-                <p>수정일시 : <span>2021.06.01</span></p>
-                <div class="TopFixedCheckbox">
-                    <label>상단에 고정하기<input type="checkbox" name="상단에 고정하기" id="topfixedcheckbox"></label>
+        <!-- 주일예배 등록/수정 -->
+        <div class="modifyNextGenerationInformation_wrap">
+            <div class="modifyNextGenerationInformationArea">
+                <div class="modifyNextGenerationInformationArea_inner">
+                    <label>주제<input type="text"></label>
+                    <label>말씀본문<input type="text"></label>
+                    <label>말씀구절<input type="text"></label>
+                    <label>담당자
+                        <select>
+                            <option value="이름">이름</option>
+                            <option value="이름">이름</option>
+                            <option value="이름">이름</option>
+                        </select>
+                    </label>
+                    <label>예배시간<input type="time" value="21:00,승리교회 본당 영아부실"></label>
+                    <label>예배장소<input type="text"></label>
+                    <div class="next_generation_info_delete_modifications" id="modifyNextGenerationInformation_registrationBtn">
+                        <button>등록</button>
+                    </div>
                 </div>
-            </div>
-            <div class="EditorArea"></div>
-            <div class="next_generation_info_delete_modifications">
-                <button id="modifyBtn">수정</button>
-                <button id="backwardBtn">뒤로가기</button>
             </div>
         </div>
     </div>
