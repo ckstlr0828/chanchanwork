@@ -144,3 +144,48 @@ footer #footer_text #footer_info p{
 }
 
 /* ------------------------ 2021.06.04 새로 추가된 곳 ------------------------ */
+
+
+/* ------------------------  교회 소개부분 추가 2021.06.09 업데이트 ------------------------  */
+/* 교회소개 레이아웃 */
+.introduction_to_church_wrap{
+    padding: 4rem 2rem;
+}
+.introduction_to_church_wrap .introduction_to_church_title{
+    padding-bottom: 2rem;
+}
+/* 교회소개 레이아웃 */
+
+/* 인사말 */
+.introduction_to_church_content ul#introduction_to_church_ul li{
+    float: none;
+}
+.introduction_to_church_content ul#introduction_to_church_ul li#greeting_text{
+    width: 100%;
+}
+.introduction_to_church_content ul#introduction_to_church_ul li#greeting_img{
+    width: 50%;
+    margin-top: 2rem;
+}
+.introduction_to_church_content ul#introduction_to_church_ul li#greeting_text h2{
+    font-size: 30px;
+}
+/* 인사말 */
+
+/* 예배안내 */
+
+/* 예배안내 */
+
+/* 오시는 길 */
+.introduction_to_church_content ul#directions_ul li{
+    float: none;
+    width: 100%;
+}
+.introduction_to_church_content ul#directions_ul li{
+    margin-left: 0;
+    margin-top: 2rem;
+}
+/* 오시는 길 */
+
+
+/* ------------------------  교회 소개부분 추가 2021.06.09 업데이트 ------------------------  */

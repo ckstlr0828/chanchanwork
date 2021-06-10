@@ -930,7 +930,7 @@ footer #footer_text p#footer_copy{
 }
 /* ------------------------ 2021.06.03 새로 추가된 곳 ------------------------ */
 
-/* ------------------------ 2021.06.04 새로 추가된 곳 ------------------------ */
+/* ------------------------ 2021.06.09 새로 추가된 곳 ------------------------ */
 .videoUploadArea_wrap,
 .modifyNextGenerationInformation_wrap{
     width: 100%;
@@ -985,4 +985,95 @@ footer #footer_text p#footer_copy{
     margin-top: 1.5rem;
     /* 30px; */
 }
-/* ------------------------ 2021.06.04 새로 추가된 곳 ------------------------ */
+/* ------------------------ 2021.06.09 새로 추가된 곳 ------------------------ */
+
+/* ------------------------  교회 소개부분 추가 2021.06.09 업데이트 ------------------------  */
+/* 교회소개 레이아웃 */
+.introduction_to_church_wrap{
+    padding: 6rem;
+}
+.introduction_to_church_wrap .introduction_to_church_title{
+    padding-bottom: 4rem;
+}
+.introduction_to_church_wrap .introduction_to_church_title p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    color: #666666;
+    padding-bottom: 1rem;
+}
+.introduction_to_church_wrap .introduction_to_church_title h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #000;
+}
+.introduction_to_church_wrap .introduction_to_church_content{
+    width: 100%;
+}
+/* 교회소개 레이아웃 */
+
+/* 인사말 */
+.introduction_to_church_content ul#introduction_to_church_ul li{
+    float: left;
+}
+.introduction_to_church_content ul#introduction_to_church_ul li#greeting_text{
+    width: 60%;
+    margin-right: 5%;
+}
+.introduction_to_church_content ul#introduction_to_church_ul li#greeting_img{
+    width: 35%;
+}
+.introduction_to_church_content ul#introduction_to_church_ul li#greeting_text h2{
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    /* 45px; */
+    line-height: 2.25rem;
+    color: #343434;
+    padding-bottom: 3rem;
+}
+.introduction_to_church_content ul#introduction_to_church_ul li#greeting_text p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.85rem;
+    /* 17px; */
+    color: #5e5e5e;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 30px; */
+}
+.introduction_to_church_content ul#introduction_to_church_ul li#greeting_img img{
+    width: 100%;
+}
+/* 인사말 */
+
+/* 예배안내 */
+.introduction_to_church_content #guide_to_worship,
+.introduction_to_church_content #guide_to_worship img{
+    width: 100%;
+}
+/* 예배안내 */
+
+/* 오시는 길 */
+.introduction_to_church_content ul#directions_ul li{
+    float: left;
+    width: 47.5%;
+    margin-left: 5%;
+}
+.introduction_to_church_content ul li#directions_img{
+    margin-left: 0;
+}
+.introduction_to_church_content ul li#directions_img img{
+    width: 100%;
+}
+.introduction_to_church_content ul li#directions_kakao{
+    background-color: aqua;
+    height: 21rem;
+    /* 420px; */
+}
+/* 오시는 길 */
+
+
+/* ------------------------  교회 소개부분 추가 2021.06.09 업데이트 ------------------------  */
