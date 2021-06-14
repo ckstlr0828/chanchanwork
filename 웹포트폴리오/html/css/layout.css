@@ -431,7 +431,7 @@ a.link_black:hover::after{
     /* 20px 10px; */
 }
 .self_introduction{
-    background: url("../img/self_introduction.gif")no-repeat center;
+    background: url("../img/self_introduction.png")no-repeat center;
     background-size: cover;
 }
 .lirikos{

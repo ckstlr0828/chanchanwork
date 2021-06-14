@@ -147,19 +147,19 @@ header #menu_box > #menu_imgbox ul li{
 }
 header #menu_box > #menu_imgbox ul li:nth-child(1){
     background: url("../img/menu_imgbox.png") no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 header #menu_box > #menu_imgbox ul li:nth-child(2){
     background: url("../img/menu_imgbox_3.png") no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 header #menu_box > #menu_imgbox ul li:nth-child(3){
     background: url("../img/menu_imgbox_2.png") no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 header #menu_box > #menu_imgbox ul li:nth-child(4){
     background: url("../img/menu_imgbox_4.png") no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 @keyframes menuimgslide {
     0% {margin-left:0;} /* 0 ~ 10  : 정지 */
