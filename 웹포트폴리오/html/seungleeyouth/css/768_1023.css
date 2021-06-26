@@ -134,3 +134,24 @@ footer #footer_text #footer_info{
 
 
 /* ------------------------  교회 소개부분 추가 2021.06.09 업데이트 ------------------------  */
+
+
+/* ------------------------  css 추가 2021.06.24 업데이트 ------------------------  */
+.groupIntroduction_wrap{
+    padding: 6rem 2rem;
+}
+.groupIntroduction_wrap .groupIntroduction_content .groupIntroduction_content_img img{
+    width: 100%;
+}
+.thoseWhoServe_wrap{
+    padding: 6rem 2rem;
+}
+/* ------------------------  css 추가 2021.06.24 업데이트 ------------------------  */
+
+/* ------------------------  css 추가 2021.06.25 업데이트 ------------------------  */
+.WorshipGuideInformation_img img{
+    width: 100%;
+}
+/* ------------------------  css 추가 2021.06.25 업데이트 ------------------------  */
+
+
