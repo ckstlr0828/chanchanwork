@@ -208,18 +208,26 @@ footer #footer_text #footer_info p{
     padding: 4rem 2rem;
 }
 .thoseWhoServe_wrap .thoseWhoServe_pastor ul li{
-    width: 48%;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 8%;
+}
+.thoseWhoServe_wrap .thoseWhoServe_pastor ul li:nth-child(1){
+    margin-top: 0;
 }
 .thoseWhoServe_mentor ul li{
-    width: 48%;
+    width: 100%;
     margin-top: 8%;
+    margin-left: 0;
 }
 .thoseWhoServe_mentor ul li:nth-child(2n+1){
     margin-left: 0;
 }
-.thoseWhoServe_mentor ul li:nth-child(1),
-.thoseWhoServe_mentor ul li:nth-child(2){
+.thoseWhoServe_mentor ul li:nth-child(1){
     margin-top: 0;
+}
+.thoseWhoServe_mentor ul li:nth-child(2){
+    margin-top: 8%;
 }
 .thoseWhoServe_wrap .thoseWhoServe_pastorInCharge ul li{
     width: 100%;
@@ -229,7 +237,7 @@ footer #footer_text #footer_info p{
     margin-bottom: 8%;
 }
 .thoseWhoServe_Chairman ul li, .thoseWhoServe_Executive ul li{
-    width: 48%;
+    width: 100%;
 }
 .thoseWhoServe_Executive ul li:nth-child(4n+1){
     margin-left: 4%;
@@ -238,6 +246,12 @@ footer #footer_text #footer_info p{
     margin-left: 0;
 }
 .thoseWhoServe_Executive ul li:nth-child(3), .thoseWhoServe_Executive ul li:nth-child(4){
+    margin-top: 4%;
+}
+.thoseWhoServe_Chairman ul li, .thoseWhoServe_Executive ul li{
+    margin-left: 0;
+}
+.thoseWhoServe_Executive ul li:nth-child(2){
     margin-top: 4%;
 }
 /* ------------------------  css 추가 2021.06.24 업데이트 ------------------------  */

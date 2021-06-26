@@ -1419,7 +1419,7 @@ li.IntroductionNewFamily:nth-child(1){
 }
 .thoseWhoServe_wrap .thoseWhoServe_pastor ul li{
     float: left;
-    width: 22%;
+    width: 48%;
     margin-left: 4%;
     box-sizing: border-box;
 }
@@ -1496,11 +1496,16 @@ li.IntroductionNewFamily:nth-child(1){
 }
 .thoseWhoServe_mentor ul li{
     float: left;
-    width: 22%;
+    width: 48%;
     margin-left: 4%;
+    margin-top: 8%;
 }
-.thoseWhoServe_mentor ul li:nth-child(1){
+.thoseWhoServe_mentor ul li:nth-child(2n+1){
     margin-left: 0;
+}
+.thoseWhoServe_mentor ul li:nth-child(1),
+.thoseWhoServe_mentor ul li:nth-child(2){
+    margin-top: 0;
 }
 .thoseWhoServe_mentor ul li .thoseWhoServe_mentor_img img{
     width: 100%;
@@ -1509,20 +1514,17 @@ li.IntroductionNewFamily:nth-child(1){
 .thoseWhoServe_Chairman ul li,
 .thoseWhoServe_Executive ul li{
     float: left;
-    width: 22%;
+    width: 48%;
     margin-left: 4%;
 }
 .thoseWhoServe_Executive ul li{
     margin-top: 4%;
 }
 .thoseWhoServe_Executive ul li:nth-child(1),
-.thoseWhoServe_Executive ul li:nth-child(2),
-.thoseWhoServe_Executive ul li:nth-child(3),
-.thoseWhoServe_Executive ul li:nth-child(4){
+.thoseWhoServe_Executive ul li:nth-child(2){
     margin-top: 0;
 }
-.thoseWhoServe_Chairman ul li:nth-child(1),
-.thoseWhoServe_Executive ul li:nth-child(4n+1){
+.thoseWhoServe_Executive ul li:nth-child(2n+1){
     margin-left: 0;
 }
 .thoseWhoServe_Chairman ul li .thoseWhoServe_Chairman_img img,
@@ -1560,7 +1562,6 @@ li.WorshipGuideInformation:nth-child(1){
 }
 #WorshipGuideInformation_wrap{
     padding: 0 5rem;
-    position: relative;
 }
 .WorshipGuideInformation_img{
     margin-top: 6rem;
@@ -1568,11 +1569,11 @@ li.WorshipGuideInformation:nth-child(1){
 .WorshipGuideInformation_img img{
     display: block;
     margin: 0 auto;
+    width: 100%;
 }
 .WorshipGuideInformation_text_btn{
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 0;
     bottom:-3rem
 }
 #WorshipGuideInformation1{
@@ -1582,5 +1583,8 @@ li.WorshipGuideInformation:nth-child(1){
 #WorshipGuideInformation2{
     background: url("../img/WorshipGuideInformation2.png") no-repeat center;
     background-size: 100%;
+}
+.WorshipGuideInformation_img{
+    position: relative;
 }
 /* ------------------------  css 추가 2021.06.25 업데이트 ------------------------  */
